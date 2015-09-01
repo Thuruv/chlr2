@@ -37,7 +37,8 @@ data_process = (
                     'App-Ops (User Management/Carriers)'),
                     ('App-Ops (Offboarding/SOx','App-Ops (Offboarding/SOx)'),
                     ('Store Merchants','Store Merchants'),
-                    ('Ad Hoc','Ad Hoc')
+                    ('Ad Hoc','Ad Hoc'),
+                    ('Rolling Queue','Rolling Queue')
                 )
 
 
