@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -27,16 +28,27 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+#TEMPLATE_DIRS = (
+#        "c:/users/c_thv/desktop/Grudge/goal/templates/",
+#)
 # Application definition
 
 INSTALLED_APPS = (
+    #'suit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'bootstrap3',
+    'daterange_filter',
+    'import_export',
+    'admin_exporter',
+    'csvimport.app.CSVImportConf',
+    'goal',
+    'chartit',
+    'gsuggest',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -70,6 +82,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'report.wsgi.application'
 
+TEMPLATE_CONTEXT_PROCESSORS = TCP + (
+    'django.core.context_processors.request',
+)
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
@@ -78,6 +93,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ATOMIC_REQUESTS': True
     }
 }
 

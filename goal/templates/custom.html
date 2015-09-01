@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>codetheta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/nadangergeo/RWD-Table-Patterns/master/dist/css/rwd-table.min.css">
+  <script type="text/javascript" src="https://raw.githubusercontent.com/nadangergeo/RWD-Table-Patterns/master/dist/js/rwd-table.js"></script>
+  <script>
+     $(function() {
+        $('.table-responsive').responsiveTable({options});
+     });
+  </script>
+</head>
+<body>
+{% load bootstrap3 %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">
+                Productivity Tracker
+            </h1>
+            <h3 class="text-center">
+                Custom Table View. Choose the Desired (Name AND Process) OR Date
+            </h3>
+            </div>
+        <div id="no-more-tables">
+            <table class="col-md-12 table-bordered table-striped table-condensed cf">
+        		<thead class="cf">
+{% block content %}
+    <form action="" method="GET">
+        {{ filter.form.as_p }}
+        <input type="submit" />
+    </form>
+    <table width = "650" align = "center">
+      <th>Date of Account</th>
+      <th>Associate</th>
+      <th>Process</th>
+      <th>Counts</th>
+      <th>Errors Made</th>
+    {% for obj in filter %}
+    <tr>
+        <td>{{ obj.date}}</td>
+        <td>{{ obj.worker }}</td>
+        <td>{{ obj.process }}</td>
+        <td>{{ obj.count }}</td>
+        <td>{{ obj.error }}</td>
+        <td>{{ obj.quality }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock %}
+</div>
+</body>
+</html>

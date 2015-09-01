@@ -1,0 +1,14 @@
+<table>
+{% for blo in Report %}
+<tr>
+
+  <td>{{ blo.name }}</td>
+  <td>{{ blo.btype }}</td>
+  <td>{{ blo.number }}</td>
+
+</tr>
+
+{% endfor %}
+</table>
+
+<a href="/export">Export to Excel !</a

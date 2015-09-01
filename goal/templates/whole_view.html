@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>codetheta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/nadangergeo/RWD-Table-Patterns/master/dist/css/rwd-table.min.css">
+  <script type="text/javascript" src="https://raw.githubusercontent.com/nadangergeo/RWD-Table-Patterns/master/dist/js/rwd-table.js"></script>
+  <script>
+     $(function() {
+        $('.table-responsive').responsiveTable({options});
+     });
+  </script>
+</head>
+<body>
+{% load bootstrap3 %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">
+                Productivity Tracker
+            </h1>
+            <h3 class="text-center">
+                Whole Table View. Can Be exported into xlsx. Try @ /export
+            </h3>
+            </div>
+        <div id="no-more-tables">
+            <table class="col-md-12 table-bordered table-striped table-condensed cf">
+        		<thead class="cf">
+<th>Date of Account</th>>
+<th>Associate</th>>
+<th>Process</th>
+<th>Counts</th>
+<th>Errors Made</th>>
+<th>Qulaity</th>>
+
+{%for i in post%}
+<tr>
+  <td>{{i.date}}</td>
+  <td>{{i.worker}}</td>
+  <td>{{i.process}}</td>
+  <td>{{i.count}}</td>
+  <td>{{i.error}}</td>
+  <td>{{i.quality}}</td>
+{%endfor%}
+</tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+  <div class="row">
+      <p class="bg-success" style="padding:10px;margin-top:20px"><small><a href="/add" target="_blank">Link</a> to Tracker Upload Form </small></p>
+  </div>
+</div>
+</body>
+</html>

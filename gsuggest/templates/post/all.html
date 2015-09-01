@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>codetheta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style>
+.col-centered{
+      float: none;
+      margin: 0 auto;
+  }
+</style>
+
+</head>
+<body>
+{% load bootstrap3 %}
+
+<!--<div class="alert alert-success" role="alert">-->
+<div class = "col-lg-3" >
+<img src="http://mms.businesswire.com/media/20140804005736/en/426508/5/SnapchatCat.jpg" alt="My image" width="50" height="50"/>
+</div>
+
+<div class="col-sm-3 ">
+  <table width = "550" align = "center">
+  {%for i in all_view%}
+  <tr>
+    <td>{{i.content}}</td>
+    <td>{{i.process}}</td>
+    <td>{{i.created_at}}</td>
+</tr>
+  {%endfor%}
+
+</table>
+</div>
+<!--  // Progress Bar ..//
+<div class="progress col-md-8 col-centered">
+    <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+      99%
+    </div>
+-->
+</body>
+</html>
