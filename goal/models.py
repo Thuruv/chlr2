@@ -38,7 +38,9 @@ data_process = (
                     ('App-Ops (Offboarding/SOx','App-Ops (Offboarding/SOx)'),
                     ('Store Merchants','Store Merchants'),
                     ('Ad Hoc','Ad Hoc'),
-                    ('Rolling Queue','Rolling Queue')
+                    ('Historical Taxonomization Rolling Queue','Historical Taxonomization Rolling Queue'),
+                    ('Historical Taxonomization','Historical Taxonomization')
+
                 )
 
 
@@ -60,7 +62,8 @@ class Report(models.Model):
     def qual(self):
         #   with __future__ you scum ..!!
         #   100-((38/150)*100)
-        equal = 100 - ((self.error / self.count) * 100)
+        equal = ((self.count - self.error)/ self.count)*100
+        #equal = 100 - ((self.error / self.count) * 100)
         return "{:.2f}".format(equal)
 
     def save(self):

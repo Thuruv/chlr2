@@ -1,0 +1,60 @@
+worker,date,process,count,error
+Sathish,02/01/2015,Mid Night Site Check,65,0
+Ramachandran,02/01/2015,Mid Night Site Check,65,0
+Venkat,02/01/2015,Mid Night Site Check,70,0
+Madhan,05/01/2015,Mid Night Site Check,107,0
+Gayathri,05/01/2015,Mid Night Site Check,89,0
+Aamir Khan,06/01/2015,Mid Night Site Check,85,0
+Gayathri,06/01/2015,Mid Night Site Check,138,0
+Prathipa,07/01/2015,Mid Night Site Check,45,0
+Madhan,07/01/2015,Mid Night Site Check,154,0
+Madhan,08/01/2015,Mid Night Site Check,207,0
+Sathish,02/01/2015,Item Attributes,247,1
+Ramachandran,02/01/2015,Item Attributes,247,1
+Prathipa,02/01/2015,Item Attributes,247,0
+Aamir Khan,05/01/2015,Item Attributes,673,0
+Prathipa,06/01/2015,Item Attributes,331,0
+Prathipa,07/01/2015,Item Attributes,535,0
+Aamir Khan,08/01/2015,Item Attributes,370,2
+Venkat,02/01/2015,Mass Refunds,71,0
+Soniya ,05/01/2015,Mass Refunds,260,0
+Prathipa,06/01/2015,Mass Refunds,395,0
+Prathipa,07/01/2015,Mass Refunds,267,0
+Soniya ,08/01/2015,Mass Refunds,268,0
+Thiliban,05/01/2015,Data-Enrichment,1600,3
+Venkat,05/01/2015,Data-Enrichment,100,0
+Aamir Khan,05/01/2015,Data-Enrichment,207,0
+Venkat,07/01/2015,Data-Enrichment,148,0
+Thiliban,08/01/2015,Data-Enrichment,1000,0
+Aamir Khan,08/01/2015,Data-Enrichment,437,0
+Aqhil,02/01/2015,EOD Check,1160,3
+Soniya ,02/01/2015,EOD Check,385,0
+Soniya ,05/01/2015,EOD Check,1165,0
+Gayathri,05/01/2015,EOD Check,399,0
+Soniya ,06/01/2015,EOD Check,1163,2
+Gayathri,06/01/2015,EOD Check,567,0
+Soniya ,07/01/2015,EOD Check,1450,0
+Gayathri,07/01/2015,EOD Check,651,0
+Soniya ,08/01/2015,EOD Check,1632,1
+Venkat,02/01/2015,Historical Taxonomization Rolling Queue,953,2
+Madhan,05/01/2015,Historical Taxonomization Rolling Queue,2028,0
+Madhan,06/01/2015,Historical Taxonomization Rolling Queue,1028,1
+Madhan,07/01/2015,Historical Taxonomization Rolling Queue,1160,0
+Madhan,08/01/2015,Historical Taxonomization Rolling Queue,1378,0
+Sathish,02/01/2015,Ideeli,43,0
+Madhan,06/01/2015,Ideeli,3323,1
+Sathish,07/01/2015,Ideeli,130,0
+Sathish,08/01/2015,Ideeli,177,0
+Ramachandran,02/01/2015,App-Ops (User Management/Carriers),1,0
+Thiliban,05/01/2015,App-Ops (User Management/Carriers),2,0
+Thiliban,06/01/2015,App-Ops (User Management/Carriers),5,0
+Thiliban,07/01/2015,App-Ops (User Management/Carriers),1,0
+Thiliban,08/01/2015,App-Ops (User Management/Carriers),4,0
+Ramachandran,08/01/2015,App-Ops (User Management/Carriers),8,0
+Ramachandran,02/01/2015,App-Ops (Offboarding/SOx,76,
+Aamir Khan,05/01/2015,App-Ops (Offboarding/SOx,51,
+Thiliban,06/01/2015,App-Ops (Offboarding/SOx,24,
+Aamir Khan,06/01/2015,App-Ops (Offboarding/SOx,24,
+Ramachandran,07/01/2015,App-Ops (Offboarding/SOx,11,
+Aamir Khan,07/01/2015,App-Ops (Offboarding/SOx,11,
+Aamir Khan,08/01/2015,App-Ops (Offboarding/SOx,28,
