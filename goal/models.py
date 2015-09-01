@@ -62,8 +62,12 @@ class Report(models.Model):
     def qual(self):
         #   with __future__ you scum ..!!
         #   100-((38/150)*100)
-        equal = ((self.count - self.error)/ self.count)*100
+        if not self.count == 0:
+            equal = ((self.count - self.error)/ self.count)*100
         #equal = 100 - ((self.error / self.count) * 100)
+        else:
+            equal = 0
+            return equal
         return "{:.2f}".format(equal)
 
     def save(self):

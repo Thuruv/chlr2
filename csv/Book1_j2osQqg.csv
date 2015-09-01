@@ -1,0 +1,99 @@
+worker,date,process,count,error
+Ramachandran,2/2/2015,Mid Night Site Check,273,0
+Aamir Khan,3/2/2015,Mid Night Site Check,146,0
+Karthick,3/2/2015,Mid Night Site Check,145,0
+Aamir Khan,4/2/2015,Mid Night Site Check,167,0
+Karthick,4/2/2015,Mid Night Site Check,166,0
+Aamir Khan,5/2/2015,Mid Night Site Check,123,1
+Karthick,5/2/2015,Mid Night Site Check,122,0
+Aamir Khan,6/2/2015,Mid Night Site Check,114,0
+Karthick,6/2/2015,Mid Night Site Check,113,0
+Sathish,9/2/2015,Mid Night Site Check,130,0
+Karthick,9/2/2015,Mid Night Site Check,100,0
+Aamir Khan,10/2/2015,Mid Night Site Check,125,0
+Karthick,10/2/2015,Mid Night Site Check,124,0
+Ramachandran,11/2/2015,Mid Night Site Check,175,0
+Karthick,11/2/2015,Mid Night Site Check,175,0
+Ramachandran,12/2/2015,Mid Night Site Check,132,0
+Karthick,12/2/2015,Mid Night Site Check,131,0
+Venkat,13/02/2015,Mid Night Site Check,138,0
+Karthick,13/02/2015,Mid Night Site Check,137,0
+Sathish,16/02/2015,Mid Night Site Check,250,0
+Aamir Khan,17/02/2015,Mid Night Site Check,137,0
+Karthick,17/02/2015,Mid Night Site Check,136,0
+Pradeep,18/02/2015,Mid Night Site Check,372,0
+Karthick,19/02/2015,Mid Night Site Check,265,0
+Aamir Khan,20/02/2015,Mid Night Site Check,330,0
+Aamir Khan,23/02/2015,Mid Night Site Check,159,0
+Karthick,23/02/2015,Mid Night Site Check,158,0
+Aamir Khan,24/02/2015,Mid Night Site Check,137,0
+Karthick,24/02/2015,Mid Night Site Check,136,0
+Aamir Khan,25/02/2015,Mid Night Site Check,167,0
+Karthick,25/02/2015,Mid Night Site Check,167,0
+Aamir Khan,26/02/2015,Mid Night Site Check,117,0
+Karthick,26/02/2015,Mid Night Site Check,117,0
+Sathish,27/02/2015,Mid Night Site Check,146,0
+Aamir Khan,27/02/2015,Mid Night Site Check,146,0
+Aamir Khan,2/2/2015,Item Attributes,1342,2
+Aamir Khan,3/2/2015,Item Attributes,698,0
+Aamir Khan,4/2/2015,Item Attributes,277,0
+Aamir Khan,5/2/2015,Item Attributes,413,0
+Aamir Khan,6/2/2015,Item Attributes,479,1
+Sathish,9/2/2015,Item Attributes,261,8
+Aamir Khan,9/2/2015,Item Attributes,673,0
+Aamir Khan,10/2/2015,Item Attributes,583,0
+Aamir Khan,11/2/2015,Item Attributes,517,0
+Aamir Khan,12/2/2015,Item Attributes,610,2
+Aqhil Mohammad,13/02/2015,Item Attributes,315,0
+Soniya,13/02/2015,Item Attributes,315,0
+Aamir Khan,16/02/2015,Item Attributes,915,0
+Soniya,16/02/2015,Item Attributes,776,0
+Aamir Khan,17/02/2015,Item Attributes,319,0
+Ramachandran,18/02/2015,Item Attributes,151,0
+Aqhil Mohammad,18/02/2015,Item Attributes,152,0
+Karthick,18/02/2015,Item Attributes,152,0
+Aamir Khan,19/02/2015,Item Attributes,492,0
+Aamir Khan,20/02/2015,Item Attributes,290,0
+Aamir Khan,23/02/2015,Item Attributes,851,0
+Aamir Khan,24/02/2015,Item Attributes,294,0
+Aamir Khan,25/02/2015,Item Attributes,435,0
+Sathish,27/02/2015,Item Attributes,482,0
+Aamir Khan,27/02/2015,Item Attributes,483,0
+Pradeep,2/2/2015,Mass Refunds,67,0
+Venkat,3/2/2015,Mass Refunds,87,0
+Venkat,4/2/2015,Mass Refunds,159,0
+Venkat,5/2/2015,Mass Refunds,173,0
+Venkat,6/2/2015,Mass Refunds,92,0
+Venkat,9/2/2015,Mass Refunds,81,0
+Venkat,10/2/2015,Mass Refunds,91,0
+Venkat,11/2/2015,Mass Refunds,7,0
+Venkat,12/2/2015,Mass Refunds,217,0
+Venkat,13/02/2015,Mass Refunds,156,0
+Venkat,16/02/2015,Mass Refunds,79,0
+Pradeep,19/02/2015,Mass Refunds,411,0
+Pradeep,20/02/2015,Mass Refunds,283,0
+Pradeep,25/02/2015,Mass Refunds,139,0
+Pradeep,27/02/2015,Mass Refunds,356,0
+Aqhil Mohammad,2/2/2015,EOD Check,2516,1
+Soniya,3/2/2015,EOD Check,2474,0
+Aqhil Mohammad,4/2/2015,EOD Check,733,0
+Soniya,4/2/2015,EOD Check,1667,0
+Aqhil Mohammad,5/2/2015,EOD Check,725,0
+Soniya,5/2/2015,EOD Check,1811,2
+Aqhil Mohammad,6/2/2015,EOD Check,2880,0
+Aamir Khan,9/2/2015,EOD Check,2477,0
+Soniya,10/2/2015,EOD Check,2360,1
+Aamir Khan,11/2/2015,EOD Check,735,0
+Soniya,11/2/2015,EOD Check,2199,1
+Aqhil Mohammad,12/2/2015,EOD Check,740,0
+Soniya,12/2/2015,EOD Check,1873,0
+Aqhil Mohammad,13/02/15,EOD Check,906,0
+Soniya,13/02/15,EOD Check,1418,2
+Aqhil Mohammad,16/02/15,EOD Check,2340,0
+Aqhil Mohammad,17/02/15,EOD Check,1389,0
+Soniya,17/02/15,EOD Check,916,0
+Aqhil Mohammad,18/02/2015,EOD Check,1257,0
+Karthick,18/02/2015,EOD Check,1257,0
+Aqhil Mohammad,19/02/2015,EOD Check,1984,0
+Soniya,19/02/2015,EOD Check,989,0
+Soniya,20/02/2015,EOD Check,2587,0
