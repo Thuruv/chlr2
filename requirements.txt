@@ -1,6 +1,6 @@
-bootstrap3
-daterange-filter
-import-export
-admin-exporter
-csvimport
-chartit
+django-bootstrap3
+django-daterange-filter
+django-import-export
+django-admin-exporter
+django-csvimport
+django_chartit
