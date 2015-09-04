@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import os.path
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -28,9 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-#TEMPLATE_DIRS = (
-#        "c:/users/c_thv/desktop/Grudge/goal/templates/",
-#)
 # Application definition
 
 INSTALLED_APPS = (
@@ -42,8 +40,10 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bootstrap3',
+    'googlecharts',
     'daterange_filter',
     'import_export',
+    'django_extensions',
     'admin_exporter',
     'csvimport.app.CSVImportConf',
     'goal',
@@ -64,6 +64,11 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'report.urls'
 
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+)
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -112,7 +117,12 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
+# Static files (CSS, JavaScript, Images)/
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+    'c:/users/c_thv/desktop/foo/goal/static/',
+)

@@ -9,51 +9,68 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://raw.githubusercontent.com/nadangergeo/RWD-Table-Patterns/master/dist/css/rwd-table.min.css">
   <script type="text/javascript" src="https://raw.githubusercontent.com/nadangergeo/RWD-Table-Patterns/master/dist/js/rwd-table.js"></script>
-  <script>
-     $(function() {
-        $('.table-responsive').responsiveTable({options});
-     });
-  </script>
+  <script type="text/javascript" src="/static/tab_filter.js"></script>
+  <link rel="stylesheet" href="/static/tab_filter.css">
+  <link rel="stylesheet" href="/static/bs_table.css">
+
 </head>
+
 <body>
 {% load bootstrap3 %}
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center">
-                Productivity Tracker
-            </h1>
-            <h3 class="text-center">
-                Custom Table View. Choose the Desired (Name AND Process) OR Date
-            </h3>
+        <div class="panel panel-primary filterable">
+            <div class="panel-heading">
+                <h3 class="panel-title">Users</h3>
+                <div class="pull-right">
+                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
+                </div>
             </div>
-        <div id="no-more-tables">
-            <table class="col-md-12 table-bordered table-striped table-condensed cf">
-        		<thead class="cf">
-{% block content %}
-    <form action="" method="GET">
-        {{ filter.form.as_p }}
-        <input type="submit" />
-    </form>
-    <table width = "650" align = "center">
-      <th>Date of Account</th>
-      <th>Associate</th>
-      <th>Process</th>
-      <th>Counts</th>
-      <th>Errors Made</th>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center">
+                            Productivity Tracker
+                        </h1>
+                        <h3 class="text-center">
+                            Custom Table View. Choose the Desired (Name AND Process) OR Date
+                        </h3>
+                        </div>
+                    <div id="no-more-tables">
+                        <table class="col-md-12 table-bordered table-striped table-condensed cf">
+                    		<thead class="cf">
+            {% block content %}
+                <form action="" method="GET">
+                    {{ filter.form.as_p }}
+                    <input type="submit" />
+                </form>
+            <table class="table" align = "center">
+      <thead>
+                    <tr class="filters">
+                        <th><input type="text" class="form-control" placeholder="date" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="worker" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="process" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="count" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="error" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="quality" disabled></th>
+                    </tr>
+      </thead>
     {% for obj in filter %}
-    <tr>
-        <td>{{ obj.date}}</td>
-        <td>{{ obj.worker }}</td>
-        <td>{{ obj.process }}</td>
-        <td>{{ obj.count }}</td>
-        <td>{{ obj.error }}</td>
-        <td>{{ obj.quality }}</td>
+    <tbody>
+      <tr>
+          <td>{{ obj.date}}</td>
+          <td>{{ obj.worker }}</td>
+          <td>{{ obj.process }}</td>
+          <td>{{ obj.count }}</td>
+          <td>{{ obj.errorz }}</td>
+          <td>{{ obj.quality }}</td>
       </tr>
+    </tbody>
     {% endfor %}
+
   </table>
-{% endblock %}
+{% endblock%}
 </div>
 </body>
 </html>

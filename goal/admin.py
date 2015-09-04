@@ -6,7 +6,7 @@ from .forms import addReportForm
 from import_export.admin import ImportExportModelAdmin
 
 class ReportAdmin(admin.ModelAdmin):
-    list_display = ['worker', 'date', 'process', 'count', 'error','quality','details']
+    list_display = ['worker', 'date', 'process', 'count', 'errorz','quality','details']
     list_filter = (
         'worker', ('date', DateRangeFilter), 'process'
     )

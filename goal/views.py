@@ -1,5 +1,7 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 import json
-from chartit import DataPool, Chart
 from django.shortcuts import get_object_or_404, render, render_to_response
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
@@ -8,6 +10,11 @@ from .models import Report, CustomFilter
 from django.http import HttpResponse
 import csv
 from .forms import addReportForm
+from django.db import connections
+from django.db import connection
+from django.db.models import *
+from django.http import JsonResponse
+from django.shortcuts import render
 
 #   To the Home Page of the Site
 def index(request):
@@ -18,6 +25,7 @@ def index(request):
         }
         return render(request, template , Context)
 #   To add the Report of Every pther P'rocess/Persons
+
 def add(request):
     form = addReportForm(request.POST or None)
     if form.is_valid():
@@ -32,17 +40,6 @@ def add(request):
     template = "add.html"
     return render(request,template,context)
 
-def whole_view(request):
-    try:
-        c = Report.objects.all().order_by('date')
-    except Report.DoesNotExist:
-        raise Http404
-    template = 'whole_view.html'
-    Context = {
-    'post': c
-    }
-    return render(request, template , Context)
-
 #   Working Fine
 def export_excel(request):
     dump = Report.objects.all()
@@ -50,44 +47,40 @@ def export_excel(request):
     response['Content-Disposition'] = 'attachment; filename="Report.csv"'
 
     writer = csv.writer(response)
-    writer.writerow(['worker','date','process', 'count', 'errors', 'quality', 'details'])
+    writer.writerow(['worker','date','process', 'count', 'errorzs', 'quality', 'details'])
     for i in dump:
         writer.writerow([
         i.worker,
         i.date,
         i.process,
         i.count,
-        i.error,
+        i.errorz,
         i.quality,
         i.details
         ])
 
     return response
 
+#   custom FILTER of the whole Records
 def custom_list(request):
     filter = CustomFilter(request.GET, queryset=Report.objects.all())
     return render_to_response('custom.html', {'filter': filter})
 
-
-
-
-
-#@login_required
-def chart_data_json(request):
-    data = {}
-    params = request.GET
-
-    days = params.get('days', 0)
-    name = params.get('name', '')
-    if name == 'worker':
-        data['chart_data'] = Report.get_avg_by_day(
-            user=request.user, days=int(days))
-
-    return HttpResponse(json.dumps(data), content_type='application/json')
-
-
+#   Sop Download links
 def sop(request):
     context = {
     }
     template = "sop.html"
     return render(request,template,context)
+
+# Test project
+def dash(request):
+    fig = Figure()
+    ax = fig.add_subplot(111)
+    data_df = pd.read_csv("C:/Users/c_thv/desktop/django.csv")
+    data_df = pd.DataFrame(data_df)
+    data_df.plot(ax=ax)
+    canvas = FigureCanvas(fig)
+    response = HttpResponse( content_type = 'image/png')
+    canvas.print_png(response)
+    return response

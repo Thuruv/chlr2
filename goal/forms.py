@@ -7,6 +7,6 @@ from .models import Report
 class addReportForm(forms.ModelForm):
     class Meta:
         model = Report
-        fields = ['worker', 'date', 'process', 'count', 'error','details']
+        fields = ['worker', 'date', 'process', 'count', 'errorz','details']
     def __init__(self, *args, **kwargs):
         super(addReportForm, self).__init__(*args, **kwargs)
