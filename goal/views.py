@@ -1,7 +1,7 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+from graphos.sources.model import ModelDataSource
+from graphos.renderers import flot
 import json
+
 from django.shortcuts import get_object_or_404, render, render_to_response
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
@@ -68,19 +68,17 @@ def custom_list(request):
 
 #   Sop Download links
 def sop(request):
+# Test project
+
     context = {
     }
     template = "sop.html"
     return render(request,template,context)
-
-# Test project
 def dash(request):
-    fig = Figure()
-    ax = fig.add_subplot(111)
-    data_df = pd.read_csv("C:/Users/c_thv/desktop/django.csv")
-    data_df = pd.DataFrame(data_df)
-    data_df.plot(ax=ax)
-    canvas = FigureCanvas(fig)
-    response = HttpResponse( content_type = 'image/png')
-    canvas.print_png(response)
-    return response
+        #c = [[i.count] for i in Report.objects.filter(process = 'Ideeli')]
+        c = Report.objects.all().values('count').values('worker').annotate(Quality=Avg('quality'))
+        context = {
+        "c" : c
+        }
+        template = "ch.html"
+        return render(request,template,context)

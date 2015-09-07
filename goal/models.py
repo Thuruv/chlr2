@@ -48,7 +48,7 @@ data_process = (
 
 class Report(models.Model):
     worker  = models.CharField('Whois it?',choices = data_associates, default = 'Select Something', max_length = 25)
-    date = models.DateField('Report Date')
+    date = models.DateField('Report Date', default =time.strftime("%Y-%m-%d") )
     process = models.CharField('What Process?',choices = data_process, default = 'Select Something', max_length = 50)
     count = models.IntegerField('The Count', default=0)
     errorz = models.IntegerField('Errors Made', default= 0)
@@ -65,7 +65,6 @@ class Report(models.Model):
         #   with __future__ you scum ..!!
         #   100-((38/150)*100)
         if not self.count == 0:
-            #equal = 0.0
             #equal = ((self.count - self.errorz)/ self.count)*100
             equal = 100 - ((self.errorz / self.count) * 100)
             return "{:.2f}".format(equal)
