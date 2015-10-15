@@ -1,0 +1,75 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <script src="{% static 'js/save_as.css' %}"></script>
+  <link href="http://themes.suggelab.com/css/template.min.css" rel="stylesheet" media="screen">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://www.blacktie.co/demo/dashgum/assets/js/chart-master/Chart.js"></script>
+
+  <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+          google.setOnLoadCallback(drawChart);
+
+          function drawChart() {
+            var djangoData = {{ tOA_t_Quality|safe}}
+            var djangoData2 = {{ tOA_pr_Quality|safe}}
+          var data = google.visualization.arrayToDataTable(djangoData);
+          var data2 = google.visualization.arrayToDataTable(djangoData2);
+
+            var options_pr = {
+             title: 'Over All Quality Of Team',
+             width: 800,
+             height: 300,
+             bar: {groupWidth: '70%'},
+             vAxis: { 
+                 viewWindow : {
+                  min: 99.7,
+                  max: 100
+             }
+           }
+           };
+           var options_t = {
+             title: 'Individual Quality Of Team members',
+             width: 800,
+             height: 300,
+             bar: {groupWidth: '80%'},
+             vAxis: { 
+                 viewWindow : {
+                  min: 99.7,
+                  max: 100
+             }
+           }
+           };
+
+          var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+          var chart2 = new google.visualization.ColumnChart(document.getElementById('number_format_chart'));
+
+
+           chart.draw(data, options_pr);
+           chart2.draw(data2, options_t);
+           };      
+      </script>
+
+</head>
+
+<body>
+
+  <div class="col-lg-6">
+      <div id="number_format_chart"></div>
+    </div>
+    <div class="col-lg-4 col-lg-4 col-lg-4">
+      <div id="chart_div"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,968 @@
+worker,date,process,count,errorzs
+Pradeep Anand,2014-9-1,Mid Night Site Check,213,0
+Arul Joseph,2014-9-2,Mid Night Site Check,186,0
+Arul Joseph,2014-9-3,Mid Night Site Check,232,0
+Arul Joseph,2014-9-4,Mid Night Site Check,289,0
+Arul Joseph,2014-9-5,Mid Night Site Check,231,0
+Arul Joseph,2014-9-8,Mid Night Site Check,190,0
+Arul Joseph,2014-9-9,Mid Night Site Check,284,0
+Arul Joseph,2014-9-10,Mid Night Site Check,311,0
+Arul Joseph,2014-9-11,Mid Night Site Check,220,0
+Arul Joseph,2014-9-12,Mid Night Site Check,346,0
+Arul Joseph,2014-9-16,Mid Night Site Check,198,1
+Arul Joseph,2014-9-17,Mid Night Site Check,268,1
+Arul Joseph,2014-9-18,Mid Night Site Check,203,0
+Arul Joseph,2014-9-19,Mid Night Site Check,276,0
+Arul Joseph,2014-9-22,Mid Night Site Check,185,0
+Arul Joseph,2014-9-23,Mid Night Site Check,178,0
+Arul Joseph,2014-9-24,Mid Night Site Check,270,2
+Arul Joseph,2014-9-25,Mid Night Site Check,195,0
+Arul Joseph,2014-9-26,Mid Night Site Check,261,0
+Arul Joseph,2014-9-30,Mid Night Site Check,174,0
+Thiliban,2014-9-1,Data-Enrichment,500,0
+Venkat,2014-9-1,Data-Enrichment,2014,0
+Aamir Khan,2014-9-1,Data-Enrichment,500,3
+Thiliban,2014-9-2,Data-Enrichment,1500,0
+Ramachandran,2014-9-2,Data-Enrichment,285,0
+Venkat,2014-9-2,Data-Enrichment,285,0
+Aamir Khan,2014-9-3,Data-Enrichment,20,0
+Thiliban,2014-9-4,Data-Enrichment,2203,0
+Thiliban,2014-9-5,Data-Enrichment,2308,3
+Thiliban,2014-9-8,Data-Enrichment,2000,0
+Ramachandran,2014-9-8,Data-Enrichment,404,0
+Venkat,2014-9-8,Data-Enrichment,2000,0
+Aamir Khan,2014-9-9,Data-Enrichment,339,2
+Venkat,2014-9-10,Data-Enrichment,1522,0
+Aamir Khan,2014-9-10,Data-Enrichment,750,0
+Thiliban,2014-9-11,Data-Enrichment,294,0
+Ramachandran,2014-9-11,Data-Enrichment,200,1
+Venkat,2014-9-11,Data-Enrichment,1500,2
+Venkat,2014-9-12,Data-Enrichment,1828,0
+Thiliban,2014-9-15,Data-Enrichment,1148,1
+Venkat,2014-9-15,Data-Enrichment,2000,0
+Thiliban,2014-9-16,Data-Enrichment,562,0
+Venkat,2014-9-16,Data-Enrichment,500,0
+Venkat,2014-9-17,Data-Enrichment,806,1
+Aamir Khan,2014-9-17,Data-Enrichment,1100,0
+Venkat,2014-9-18,Data-Enrichment,1771,0
+Venkat,2014-9-19,Data-Enrichment,1387,0
+Aamir Khan,2014-9-19,Data-Enrichment,500,0
+Ramachandran,2014-9-22,Data-Enrichment,200,0
+Venkat,2014-9-22,Data-Enrichment,1996,0
+Aamir Khan,2014-9-22,Data-Enrichment,250,0
+Venkat,2014-9-23,Data-Enrichment,300,0
+Aamir Khan,2014-9-23,Data-Enrichment,1200,0
+Venkat,2014-9-24,Data-Enrichment,1000,0
+Aamir Khan,2014-9-24,Data-Enrichment,967,0
+Venkat,2014-9-25,Data-Enrichment,465,0
+Aamir Khan,2014-9-25,Data-Enrichment,1000,0
+Venkat,2014-9-26,Data-Enrichment,858,0
+Aamir Khan,2014-9-26,Data-Enrichment,1000,0
+Aamir Khan,2014-9-30,Data-Enrichment,996,0
+Arul Joseph,2014-9-2,Item Attributes,328,0
+Arul Joseph,2014-9-3,Item Attributes,376,0
+Arul Joseph,2014-9-4,Item Attributes,277,0
+Arul Joseph,2014-9-5,Item Attributes,531,0
+Arul Joseph,2014-9-9,Item Attributes,257,1
+Arul Joseph,2014-9-10,Item Attributes,367,0
+Arul Joseph,2014-9-11,Item Attributes,332,0
+Arul Joseph,2014-9-12,Item Attributes,298,0
+Sathish,2014-9-15,Item Attributes,276,0
+Ramachandran,2014-9-15,Item Attributes,361,0
+Arul Joseph,2014-9-15,Item Attributes,381,0
+Arul Joseph,2014-9-16,Item Attributes,220,0
+Arul Joseph,2014-9-17,Item Attributes,388,0
+Arul Joseph,2014-9-18,Item Attributes,358,0
+Arul Joseph,2014-9-19,Item Attributes,327,0
+Sathish,2014-9-22,Item Attributes,266,0
+Prathiba,2014-9-22,Item Attributes,523,0
+Soniya,2014-9-22,Item Attributes,403,0
+Arul Joseph,2014-9-22,Item Attributes,244,0
+Arul Joseph,2014-9-23,Item Attributes,399,0
+Arul Joseph,2014-9-24,Item Attributes,223,0
+Arul Joseph,2014-9-25,Item Attributes,299,0
+Arul Joseph,2014-9-26,Item Attributes,301,0
+Arul Joseph,2014-9-30,Item Attributes,313,0
+Prathiba,2014-9-1,Mass Refunds,305,0
+Prathiba,2014-9-3,Mass Refunds,66,0
+Prathiba,2014-9-4,Mass Refunds,230,0
+Prathiba,2014-9-5,Mass Refunds,103,0
+Prathiba,2014-9-8,Mass Refunds,21,0
+Prathiba,2014-9-9,Mass Refunds,370,0
+Prathiba,2014-9-10,Mass Refunds,70,0
+Prathiba,2014-9-11,Mass Refunds,47,0
+Prathiba,2014-9-12,Mass Refunds,15,0
+Prathiba,2014-9-15,Mass Refunds,1,0
+Prathiba,2014-9-16,Mass Refunds,13,2
+Prathiba,2014-9-17,Mass Refunds,8,0
+Venkat,2014-9-18,Mass Refunds,11,0
+Prathiba,2014-9-19,Mass Refunds,11,0
+Prathiba,2014-9-22,Mass Refunds,41,1
+Prathiba,2014-9-23,Mass Refunds,20,8
+Prathiba,2014-9-24,Mass Refunds,32,0
+Prathiba,2014-9-25,Mass Refunds,85,0
+Prathiba,2014-9-26,Mass Refunds,58,0
+Prathiba,2014-9-30,Mass Refunds,35,2
+Sathish,2014-9-1,EOD Check,1603,0
+Aqhil Mohammad,2014-9-1,EOD Check,2082,0
+Sathish,2014-9-2,EOD Check,2193,0
+Sathish,2014-9-3,EOD Check,2385,0
+Sathish,2014-9-4,EOD Check,2574,0
+Sathish,2014-9-5,EOD Check,2194,0
+Aqhil Mohammad,2014-9-8,EOD Check,2139,0
+Aqhil Mohammad,2014-9-9,EOD Check,2052,0
+Aqhil Mohammad,2014-9-10,EOD Check,2346,0
+Aqhil Mohammad,2014-9-11,EOD Check,1767,0
+Aqhil Mohammad,2014-9-12,EOD Check,2523,0
+Gayathri,2014-9-15,EOD Check,2395,0
+Aqhil Mohammad,2014-9-16,EOD Check,2213,0
+Aqhil Mohammad,2014-9-17,EOD Check,2292,0
+Aqhil Mohammad,2014-9-18,EOD Check,1883,0
+Aqhil Mohammad,2014-9-19,EOD Check,1953,0
+Aqhil Mohammad,2014-9-22,EOD Check,2127,0
+Aqhil Mohammad,2014-9-23,EOD Check,2212,0
+Aqhil Mohammad,2014-9-24,EOD Check,1677,0
+Aqhil Mohammad,2014-9-25,EOD Check,2069,0
+Aqhil Mohammad,2014-9-26,EOD Check,1739,0
+Aqhil Mohammad,2014-9-30,EOD Check,1691,0
+Madhan,2014-9-1,Historical Taxonomization Rolling Queue,1177,0
+Madhan,2014-9-2,Historical Taxonomization Rolling Queue,1085,0
+Madhan,2014-9-3,Historical Taxonomization Rolling Queue,1137,0
+Madhan,2014-9-4,Historical Taxonomization Rolling Queue,1120,0
+Madhan,2014-9-5,Historical Taxonomization Rolling Queue,2493,0
+Madhan,2014-9-8,Historical Taxonomization Rolling Queue,1168,0
+Madhan,2014-9-9,Historical Taxonomization Rolling Queue,1625,0
+Madhan,2014-9-10,Historical Taxonomization Rolling Queue,1833,0
+Madhan,2014-9-12,Historical Taxonomization Rolling Queue,2344,1
+Venkat,2014-9-15,Historical Taxonomization Rolling Queue,1261,0
+Madhan,2014-9-16,Historical Taxonomization Rolling Queue,1421,0
+Madhan,2014-9-17,Historical Taxonomization Rolling Queue,1797,0
+Madhan,2014-9-18,Historical Taxonomization Rolling Queue,1508,0
+Madhan,2014-9-19,Historical Taxonomization Rolling Queue,1850,2
+Madhan,2014-9-22,Historical Taxonomization Rolling Queue,1172,0
+Madhan,2014-9-23,Historical Taxonomization Rolling Queue,857,0
+Madhan,2014-9-24,Historical Taxonomization Rolling Queue,1485,1
+Madhan,2014-9-25,Historical Taxonomization Rolling Queue,1336,0
+Madhan,2014-9-26,Historical Taxonomization Rolling Queue,1314,1
+Madhan,2014-9-30,Historical Taxonomization Rolling Queue,769,0
+Madhan,2014-9-1,Buyer's Pipeline,33984,0
+Madhan,2014-9-2,Buyer's Pipeline,33984,0
+Madhan,2014-9-3,Buyer's Pipeline,34091,2
+Arul Joseph,2014-9-4,Buyer's Pipeline,34139,0
+Arul Joseph,2014-9-5,Buyer's Pipeline,34127,0
+Thiliban,2014-9-8,Buyer's Pipeline,34116,0
+Thiliban,2014-9-9,Buyer's Pipeline,34106,0
+Thiliban,2014-9-10,Buyer's Pipeline,3422,0
+Thiliban,2014-9-11,Buyer's Pipeline,34476,0
+Thiliban,2014-9-12,Buyer's Pipeline,34526,0
+Thiliban,2014-9-15,Buyer's Pipeline,34482,0
+Thiliban,2014-9-16,Buyer's Pipeline,34482,0
+Thiliban,2014-9-17,Buyer's Pipeline,34427,0
+Thiliban,2014-9-18,Buyer's Pipeline,34688,0
+Madhan,2014-9-19,Buyer's Pipeline,33810,0
+Thiliban,2014-9-22,Buyer's Pipeline,35717,0
+Thiliban,2014-9-23,Buyer's Pipeline,34793,0
+Thiliban,2014-9-24,Buyer's Pipeline,34547,0
+Thiliban,2014-9-25,Buyer's Pipeline,34307,0
+Thiliban,2014-9-26,Buyer's Pipeline,34890,2
+Thiliban,2014-9-30,Buyer's Pipeline,34193,0
+Thiliban,2014-9-2,App-Ops (User Management/Carriers),15,0
+Ramachandran,2014-9-3,App-Ops (User Management/Carriers),7,0
+Thiliban,2014-9-4,App-Ops (User Management/Carriers),4,0
+Ramachandran,2014-9-5,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-9-8,App-Ops (User Management/Carriers),2,1
+Ramachandran,2014-9-8,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-9-9,App-Ops (User Management/Carriers),8,3
+Ramachandran,2014-9-10,App-Ops (User Management/Carriers),5,0
+Ramachandran,2014-9-11,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-9-12,App-Ops (User Management/Carriers),5,0
+Ramachandran,2014-9-15,App-Ops (User Management/Carriers),17,0
+Ramachandran,2014-9-16,App-Ops (User Management/Carriers),3,0
+Ramachandran,2014-9-17,App-Ops (User Management/Carriers),1,1
+Ramachandran,2014-9-18,App-Ops (User Management/Carriers),3,0
+Ramachandran,2014-9-19,App-Ops (User Management/Carriers),8,0
+Ramachandran,2014-9-22,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-9-23,App-Ops (User Management/Carriers),4,0
+Thiliban,2014-9-24,App-Ops (User Management/Carriers),3,0
+Aamir Khan,2014-9-25,App-Ops (User Management/Carriers),1,0
+Aamir Khan,2014-9-26,App-Ops (User Management/Carriers),2,0
+Thiliban,2014-9-30,App-Ops (User Management/Carriers),1,0
+Ramachandran,2014-9-2,App-Ops (Offboarding/SOx),119,0
+Ramachandran,2014-9-3,App-Ops (Offboarding/SOx),35,1
+Ramachandran,2014-9-4,App-Ops (Offboarding/SOx),45,0
+Thiliban,2014-9-5,App-Ops (Offboarding/SOx),58,0
+Thiliban,2014-9-8,App-Ops (Offboarding/SOx),24,0
+Ramachandran,2014-9-8,App-Ops (Offboarding/SOx),24,0
+Ramachandran,2014-9-9,App-Ops (Offboarding/SOx),40,0
+Ramachandran,2014-9-10,App-Ops (Offboarding/SOx),43,0
+Ramachandran,2014-9-11,App-Ops (Offboarding/SOx),42,0
+Thiliban,2014-9-12,App-Ops (Offboarding/SOx),196,0
+Ramachandran,2014-9-12,App-Ops (Offboarding/SOx),196,0
+Ramachandran,2014-9-15,App-Ops (Offboarding/SOx),42,0
+Thiliban,2014-9-16,App-Ops (Offboarding/SOx),29,0
+Ramachandran,2014-9-16,App-Ops (Offboarding/SOx),30,0
+Ramachandran,2014-9-17,App-Ops (Offboarding/SOx),29,0
+Ramachandran,2014-9-18,App-Ops (Offboarding/SOx),27,0
+Ramachandran,2014-9-19,App-Ops (Offboarding/SOx),31,0
+Ramachandran,2014-9-22,App-Ops (Offboarding/SOx),50,0
+Thiliban,2014-9-23,App-Ops (Offboarding/SOx),22,0
+Ramachandran,2014-9-23,App-Ops (Offboarding/SOx),22,0
+Ramachandran,2014-9-24,App-Ops (Offboarding/SOx),8,0
+Aamir Khan,2014-9-24,App-Ops (Offboarding/SOx),8,0
+Ramachandran,2014-9-25,App-Ops (Offboarding/SOx),18,0
+Ramachandran,2014-9-26,App-Ops (Offboarding/SOx),23,0
+Aamir Khan,2014-9-26,App-Ops (Offboarding/SOx),23,0
+Thiliban,2014-9-30,App-Ops (Offboarding/SOx),43,0
+Ramachandran,2014-9-30,App-Ops (Offboarding/SOx),43,0
+Thiliban,2014-9-3,Ad Hoc,Basic Price List 243,0
+Aqhil Mohammad,2014-9-4,Ad Hoc,91,0
+Aqhil Mohammad,2014-9-5,Ad Hoc,75,0
+Sathish,2014-9-8,Ad Hoc,92,0
+Madhan,2014-9-8,Ad Hoc,92,0
+Thiliban,2014-9-10,Ad Hoc,100,0
+Sathish,2014-9-10,Ad Hoc,100,0
+Ramachandran,2014-9-10,Ad Hoc,100,0
+Sathish,2014-9-11,Ideeli,351,0
+Arul Joseph,2014-10-1,Mid Night Site Check,391,0
+Soniya,2014-10-6,Mid Night Site Check,203,0
+Soniya,2014-10-7,Mid Night Site Check,200,0
+Arul Joseph,2014-10-8,Mid Night Site Check,253,0
+Arul Joseph,2014-10-9,Mid Night Site Check,242,0
+Arul Joseph,2014-10-10,Mid Night Site Check,481,0
+Madhan,2014-10-13,Mid Night Site Check,220,0
+Ramachandran,2014-10-14,Mid Night Site Check,60,0
+Prathiba,2014-10-14,Mid Night Site Check,60,0
+Aamir Khan,2014-10-14,Mid Night Site Check,60,0
+Karthick,2014-10-14,Mid Night Site Check,63,1
+Madhan,2014-10-15,Mid Night Site Check,214,1
+Soniya,2014-10-15,Mid Night Site Check,115,0
+Pradeep Anand,2014-10-16,Mid Night Site Check,237,0
+Pradeep Anand,2014-10-17,Mid Night Site Check,294,0
+Arul Joseph,2014-10-20,Mid Night Site Check,260,0
+Arul Joseph,2014-10-21,Mid Night Site Check,237,2
+Arul Joseph,2014-10-22,Mid Night Site Check,335,0
+Arul Joseph,2014-10-24,Mid Night Site Check,279,0
+Arul Joseph,2014-10-27,Mid Night Site Check,223,0
+Arul Joseph,2014-10-29,Mid Night Site Check,311,0
+Arul Joseph,2014-10-30,Mid Night Site Check,243,0
+Prathiba,2014-10-1,Item Attributes,802,3
+Arul Joseph,2014-10-1,Item Attributes,656,0
+Dhilip,2014-10-6,Item Attributes,267,0
+Soniya,2014-10-6,Item Attributes,377,0
+Arul Joseph,2014-10-6,Item Attributes,507,0
+Dhilip,2014-10-7,Item Attributes,364,0
+Soniya,2014-10-7,Item Attributes,257,3
+Dhilip,2014-10-8,Item Attributes,333,0
+Arul Joseph,2014-10-8,Item Attributes,467,0
+Arul Joseph,2014-10-9,Item Attributes,304,0
+Arul Joseph,2014-10-10,Item Attributes,215,2
+Ramachandran,2014-10-13,Item Attributes,248,0
+Prathiba,2014-10-13,Item Attributes,241,0
+Soniya,2014-10-14,Item Attributes,303,0
+Soniya,2014-10-15,Item Attributes,356,1
+Soniya,2014-10-16,Item Attributes,153,2
+Gayathri,2014-10-16,Item Attributes,153,0
+Prathiba,2014-10-17,Item Attributes,113,1
+Dhilip,2014-10-17,Item Attributes,114,0
+Soniya,2014-10-17,Item Attributes,113,0
+Gayathri,2014-10-17,Item Attributes,113,0
+Soniya,2014-10-21,Item Attributes,191,1
+Gayathri,2014-10-21,Item Attributes,192,0
+Soniya,2014-10-22,Item Attributes,287,0
+Arul Joseph,2014-10-22,Item Attributes,226,0
+Prathiba,2014-10-24,Item Attributes,399,0
+Arul Joseph,2014-10-24,Item Attributes,279,0
+Gayathri,2014-10-27,Item Attributes,522,0
+Arul Joseph,2014-10-27,Item Attributes,327,0
+Arul Joseph,2014-10-29,Item Attributes,375,0
+Arul Joseph,2014-10-30,Item Attributes,459,0
+Ramachandran,2014-10-1,Data-Enrichment,831,0
+Venkat,2014-10-1,Data-Enrichment,831,0
+Sathish,2014-10-6,Data-Enrichment,2200,0
+Ramachandran,2014-10-6,Data-Enrichment,200,0
+Venkat,2014-10-6,Data-Enrichment,2300,0
+Soniya,2014-10-6,Data-Enrichment,300,0
+Thiliban,2014-10-7,Data-Enrichment,800,0
+Ramachandran,2014-10-7,Data-Enrichment,708,0
+Venkat,2014-10-7,Data-Enrichment,708,0
+Ramachandran,2014-10-8,Data-Enrichment,774,0
+Venkat,2014-10-8,Data-Enrichment,773,0
+Venkat,2014-10-9,Data-Enrichment,1776,1
+Ramachandran,2014-10-10,Data-Enrichment,1300,0
+Venkat,2014-10-10,Data-Enrichment,2398,0
+Thiliban,2014-10-13,Data-Enrichment,1000,0
+Venkat,2014-10-13,Data-Enrichment,2000,0
+Thiliban,2014-10-14,Data-Enrichment,910,0
+Venkat,2014-10-14,Data-Enrichment,939,0
+Venkat,2014-10-15,Data-Enrichment,1664,0
+Thiliban,2014-10-16,Data-Enrichment,1264,0
+Venkat,2014-10-16,Data-Enrichment,819,0
+Thiliban,2014-10-17,Data-Enrichment,500,0
+Venkat,2014-10-17,Data-Enrichment,1559,0
+Thiliban,2014-10-20,Data-Enrichment,600,0
+Venkat,2014-10-20,Data-Enrichment,1950,0
+Thiliban,2014-10-21,Data-Enrichment,793,0
+Ramachandran,2014-10-22,Data-Enrichment,1250,0
+Venkat,2014-10-22,Data-Enrichment,350,0
+Thiliban,2014-10-24,Data-Enrichment,500,0
+Ramachandran,2014-10-24,Data-Enrichment,1600,0
+Venkat,2014-10-24,Data-Enrichment,1853,0
+Ramachandran,2014-10-27,Data-Enrichment,1700,0
+Venkat,2014-10-27,Data-Enrichment,2038,0
+Ramachandran,2014-10-29,Data-Enrichment,1643,0
+Venkat,2014-10-30,Data-Enrichment,1548,0
+Prathiba,2014-10-10,Mass Refunds,986,0
+Prathiba,2014-10-13,Mass Refunds,238,0
+Prathiba,2014-10-14,Mass Refunds,138,0
+Prathiba,2014-10-15,Mass Refunds,339,0
+Prathiba,2014-10-16,Mass Refunds,442,0
+Prathiba,2014-10-17,Mass Refunds,98,0
+Prathiba,2014-10-20,Mass Refunds,137,2
+Prathiba,2014-10-21,Mass Refunds,427,0
+Prathiba,2014-10-22,Mass Refunds,125,0
+Prathiba,2014-10-24,Mass Refunds,417,0
+Prathiba,2014-10-27,Mass Refunds,166,1
+Pradeep Anand,2014-10-29,Mass Refunds,407,8
+Prathiba,2014-10-30,Mass Refunds,349,0
+Aqhil Mohammad,2014-10-1,EOD Check,2073,0
+Gayathri,2014-10-6,EOD Check,2156,0
+Arul Joseph,2014-10-6,EOD Check,2156,2
+Sathish,2014-10-7,EOD Check,1065,0
+Gayathri,2014-10-7,EOD Check,1899,0
+Aqhil Mohammad,2014-10-8,EOD Check,2141,0
+Aqhil Mohammad,2014-10-9,EOD Check,2537,0
+Aqhil Mohammad,2014-10-10,EOD Check,1665,0
+Aqhil Mohammad,2014-10-13,EOD Check,2183,0
+Aqhil Mohammad,2014-10-14,EOD Check,1945,0
+Aqhil Mohammad,2014-10-15,EOD Check,2234,0
+Aqhil Mohammad,2014-10-16,EOD Check,2083,0
+Aqhil Mohammad,2014-10-17,EOD Check,1571,0
+Aqhil Mohammad,2014-10-20,EOD Check,2268,0
+Aqhil Mohammad,2014-10-21,EOD Check,1676,0
+Aqhil Mohammad,2014-10-22,EOD Check,1270,0
+Karthick,2014-10-22,EOD Check,1039,0
+Aqhil Mohammad,2014-10-24,EOD Check,4058,0
+Aqhil Mohammad,2014-10-27,EOD Check,1765,0
+Karthick,2014-10-27,EOD Check,895,0
+Aqhil Mohammad,2014-10-29,EOD Check,2809,0
+Aqhil Mohammad,2014-10-30,EOD Check,1223,0
+Karthick,2014-10-30,EOD Check,992,0
+Madhan,2014-10-1,Historical Taxonomization Rolling Queue,2526,0
+Madhan,2014-10-6,Historical Taxonomization Rolling Queue,977,0
+Madhan,2014-10-7,Historical Taxonomization Rolling Queue,1197,0
+Soniya,2014-10-8,Historical Taxonomization Rolling Queue,1407,0
+Madhan,2014-10-9,Historical Taxonomization Rolling Queue,1581,0
+Madhan,2014-10-10,Historical Taxonomization Rolling Queue,2136,0
+Madhan,2014-10-13,Historical Taxonomization Rolling Queue,1195,0
+Soniya,2014-10-14,Historical Taxonomization Rolling Queue,1173,0
+Madhan,2014-10-15,Historical Taxonomization Rolling Queue,1564,0
+Madhan,2014-10-16,Historical Taxonomization Rolling Queue,1820,0
+Madhan,2014-10-17,Historical Taxonomization Rolling Queue,1439,1
+Madhan,2014-10-20,Historical Taxonomization Rolling Queue,1316,0
+Madhan,2014-10-21,Historical Taxonomization Rolling Queue,1844,0
+Madhan,2014-10-22,Historical Taxonomization Rolling Queue,1278,0
+Madhan,2014-10-24,Historical Taxonomization Rolling Queue,1330,0
+Madhan,2014-10-27,Historical Taxonomization Rolling Queue,1858,2
+Madhan,2014-10-29,Historical Taxonomization Rolling Queue,1389,0
+Madhan,2014-10-30,Historical Taxonomization Rolling Queue,1334,0
+Thiliban,2014-10-1,Buyer's Pipeline,34257,1
+Madhan,2014-10-6,Buyer's Pipeline,33678,0
+Aamir Khan,2014-10-7,Buyer's Pipeline,33853,1
+Aamir Khan,2014-10-8,Buyer's Pipeline,34025,0
+Aamir Khan,2014-10-9,Buyer's Pipeline,33814,0
+Aamir Khan,2014-10-1,App-Ops (User Management/Carriers),6,0
+Ramachandran,2014-10-6,App-Ops (User Management/Carriers),14,2
+Thiliban,2014-10-7,App-Ops (User Management/Carriers),6,0
+Ramachandran,2014-10-7,App-Ops (User Management/Carriers),6,0
+Aamir Khan,2014-10-7,App-Ops (User Management/Carriers),5,0
+Thiliban,2014-10-8,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-10-8,App-Ops (User Management/Carriers),3,0
+Aamir Khan,2014-10-8,App-Ops (User Management/Carriers),2,0
+Thiliban,2014-10-9,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-10-9,App-Ops (User Management/Carriers),3,0
+Thiliban,2014-10-10,App-Ops (User Management/Carriers),2,0
+Aamir Khan,2014-10-10,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-10-13,App-Ops (User Management/Carriers),1,0
+Aamir Khan,2014-10-13,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-10-14,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-10-14,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-10-15,App-Ops (User Management/Carriers),2,0
+Aamir Khan,2014-10-15,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-10-16,App-Ops (User Management/Carriers),5,2
+Aamir Khan,2014-10-16,App-Ops (User Management/Carriers),4,0
+Thiliban,2014-10-17,App-Ops (User Management/Carriers),15,0
+Ramachandran,2014-10-17,App-Ops (User Management/Carriers),16,0
+Ramachandran,2014-10-20,App-Ops (User Management/Carriers),17,0
+Ramachandran,2014-10-21,App-Ops (User Management/Carriers),10,0
+Aamir Khan,2014-10-21,App-Ops (User Management/Carriers),10,1
+Ramachandran,2014-10-22,App-Ops (User Management/Carriers),4,0
+Thiliban,2014-10-24,App-Ops (User Management/Carriers),5,3
+Ramachandran,2014-10-24,App-Ops (User Management/Carriers),6,0
+Aamir Khan,2014-10-24,App-Ops (User Management/Carriers),6,0
+Ramachandran,2014-10-27,App-Ops (User Management/Carriers),2,0
+Aamir Khan,2014-10-27,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-10-29,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-10-29,App-Ops (User Management/Carriers),1,1
+Aamir Khan,2014-10-29,App-Ops (User Management/Carriers),3,0
+Thiliban,2014-10-30,App-Ops (User Management/Carriers),5,0
+Ramachandran,2014-10-30,App-Ops (User Management/Carriers),5,0
+Aamir Khan,2014-10-30,App-Ops (User Management/Carriers),5,0
+Ramachandran,2014-10-1,App-Ops (Offboarding/SOx),48,0
+Aamir Khan,2014-10-1,App-Ops (Offboarding/SOx),48,0
+Ramachandran,2014-10-6,App-Ops (Offboarding/SOx),167,0
+Ramachandran,2014-10-7,App-Ops (Offboarding/SOx),16,0
+Ramachandran,2014-10-8,App-Ops (Offboarding/SOx),38,0
+Ramachandran,2014-10-9,App-Ops (Offboarding/SOx),34,1
+Ramachandran,2014-10-10,App-Ops (Offboarding/SOx),43,0
+Aamir Khan,2014-10-10,App-Ops (Offboarding/SOx),30,0
+Ramachandran,2014-10-13,App-Ops (Offboarding/SOx),31,0
+Thiliban,2014-10-14,App-Ops (Offboarding/SOx),14,0
+Ramachandran,2014-10-14,App-Ops (Offboarding/SOx),14,0
+Thiliban,2014-10-15,App-Ops (Offboarding/SOx),44,0
+Ramachandran,2014-10-15,App-Ops (Offboarding/SOx),100,0
+Thiliban,2014-10-16,App-Ops (Offboarding/SOx),20,0
+Aamir Khan,2014-10-16,App-Ops (Offboarding/SOx),20,0
+Thiliban,2014-10-17,App-Ops (Offboarding/SOx),19,0
+Ramachandran,2014-10-17,App-Ops (Offboarding/SOx),20,0
+Ramachandran,2014-10-20,App-Ops (Offboarding/SOx),346,0
+Aamir Khan,2014-10-20,App-Ops (Offboarding/SOx),346,0
+Thiliban,2014-10-21,App-Ops (Offboarding/SOx),18,0
+Ramachandran,2014-10-21,App-Ops (Offboarding/SOx),15,0
+Ramachandran,2014-10-22,App-Ops (Offboarding/SOx),3,0
+Thiliban,2014-10-24,App-Ops (Offboarding/SOx),31,0
+Ramachandran,2014-10-24,App-Ops (Offboarding/SOx),31,0
+Aamir Khan,2014-10-24,App-Ops (Offboarding/SOx),30,0
+Aamir Khan,2014-10-27,App-Ops (Offboarding/SOx),71,0
+Aamir Khan,2014-10-29,App-Ops (Offboarding/SOx),26,0
+Thiliban,2014-10-30,App-Ops (Offboarding/SOx),14,0
+Aamir Khan,2014-10-30,App-Ops (Offboarding/SOx),14,0
+Soniya,2014-10-22,Ad Hoc,12,0
+Aamir Khan,2014-10-29,Ad Hoc,48,0
+Aamir Khan,2014-10-30,Ad Hoc,112,0
+Sathish,2014-10-8,Ideeli,210,0
+Madhan,2014-10-8,Ideeli,210,0
+Sathish,2014-10-9,Ideeli,210,0
+Madhan,2014-10-9,Ideeli,210,0
+Sathish,2014-10-10,Ideeli,36,0
+Sathish,2014-10-13,Ideeli,240,0
+Sathish,2014-10-14,Ideeli,276,0
+Sathish,2014-10-16,Ideeli,412,0
+Sathish,2014-10-20,Ideeli,512,0
+Sathish,2014-10-21,Ideeli,455,0
+Sathish,2014-10-22,Ideeli,99,0
+Sathish,2014-10-24,Ideeli,142,0
+Sathish,2014-10-27,Ideeli,966,0
+Sathish,2014-10-29,Ideeli,125,0
+Sathish,2014-10-30,Ideeli,102,0
+Madhan,2014-10-30,Ideeli,102,0
+Madhan,2014-10-16,Historical Taxonomization Rolling Queue,1656,0
+Arul Joseph,2014-11-3,Mid Night Site Check,306,0
+Arul Joseph,2014-11-4,Mid Night Site Check,238,0
+Arul Joseph,2014-11-5,Mid Night Site Check,237,0
+Arul Joseph,2014-11-6,Mid Night Site Check,366,0
+Arul Joseph,2014-11-7,Mid Night Site Check,269,0
+Madhan,2014-11-10,Mid Night Site Check,120,0
+Aamir Khan,2014-11-10,Mid Night Site Check,120,0
+Thiliban,2014-11-11,Mid Night Site Check,140,0
+Aamir Khan,2014-11-11,Mid Night Site Check,141,0
+Madhan,2014-11-12,Mid Night Site Check,343,0
+Madhan,2014-11-13,Mid Night Site Check,264,0
+Sathish,2014-11-14,Mid Night Site Check,112,0
+Madhan,2014-11-14,Mid Night Site Check,240,0
+Aamir Khan,2014-11-17,Mid Night Site Check,360,0
+Madhan,2014-11-18,Mid Night Site Check,250,0
+Madhan,2014-11-19,Mid Night Site Check,364,0
+Arul Joseph,2014-11-20,Mid Night Site Check,322,0
+Madhan,2014-11-21,Mid Night Site Check,363,0
+Madhan,2014-11-24,Mid Night Site Check,240,0
+Madhan,2014-11-25,Mid Night Site Check,314,0
+Madhan,2014-11-26,Mid Night Site Check,852,0
+Madhan,2014-11-27,Mid Night Site Check,3,0
+Madhan,2014-11-28,Mid Night Site Check,17,0
+Sathish,2014-11-3,Item Attributes,405,0
+Gayathri,2014-11-3,Item Attributes,428,0
+Arul Joseph,2014-11-3,Item Attributes,562,0
+Soniya,2014-11-4,Item Attributes,368,0
+Sathish,2014-11-5,Item Attributes,266,0
+Arul Joseph,2014-11-5,Item Attributes,265,0
+Gayathri,2014-11-6,Item Attributes,474,0
+Arul Joseph,2014-11-6,Item Attributes,100,0
+Ramachandran,2014-11-7,Item Attributes,412,0
+Arul Joseph,2014-11-11,Item Attributes,458,0
+Soniya,2014-11-11,Item Attributes,200,0
+Thiliban,2014-11-12,Item Attributes,313,0
+Ramachandran,2014-11-13,Item Attributes,248,0
+Aamir Khan,2014-11-13,Item Attributes,248,0
+Soniya,2014-11-14,Item Attributes,800,0
+Aamir Khan,2014-11-17,Item Attributes,1863,0
+Arul Joseph,2014-11-18,Item Attributes,822,0
+Aamir Khan,2014-11-19,Item Attributes,446,0
+Arul Joseph,2014-11-19,Item Attributes,446,0
+Aamir Khan,2014-11-20,Item Attributes,881,0
+Aamir Khan,2014-11-21,Item Attributes,783,0
+Aamir Khan,2014-11-24,Item Attributes,1987,0
+Aamir Khan,2014-11-25,Item Attributes,350,0
+Aamir Khan,2014-11-26,Item Attributes,659,0
+Aamir Khan,2014-11-27,Item Attributes,763,0
+Aamir Khan,2014-11-28,Item Attributes,551,0
+Venkat,2014-11-3,Data-Enrichment,2424,0
+Venkat,2014-11-4,Data-Enrichment,1000,0
+Ramachandran,2014-11-5,Data-Enrichment,1779,0
+Venkat,2014-11-5,Data-Enrichment,783,0
+Venkat,2014-11-6,Data-Enrichment,2004,0
+Ramachandran,2014-11-7,Data-Enrichment,300,0
+Venkat,2014-11-7,Data-Enrichment,1919,0
+Ramachandran,2014-11-10,Data-Enrichment,1650,0
+Venkat,2014-11-10,Data-Enrichment,1342,0
+Venkat,2014-11-11,Data-Enrichment,989,0
+Ramachandran,2014-11-12,Data-Enrichment,1200,0
+Venkat,2014-11-12,Data-Enrichment,1096,0
+Sathish,2014-11-14,Data-Enrichment,500,0
+Venkat,2014-11-14,Data-Enrichment,504,0
+Aamir Khan,2014-11-17,Data-Enrichment,2800,0
+Ramachandran,2014-11-18,Data-Enrichment,1000,0
+Venkat,2014-11-18,Data-Enrichment,1747,0
+Venkat,2014-11-19,Data-Enrichment,2487,0
+Ramachandran,2014-11-20,Data-Enrichment,600,0
+Venkat,2014-11-20,Data-Enrichment,1309,0
+Venkat,2014-11-21,Data-Enrichment,1727,0
+Thiliban,2014-11-24,Data-Enrichment,1859,0
+Sathish,2014-11-24,Data-Enrichment,500,0
+Venkat,2014-11-24,Data-Enrichment,2600,0
+Ramachandran,2014-11-25,Data-Enrichment,1568,0
+Ramachandran,2014-11-26,Data-Enrichment,2100,0
+Ramachandran,2014-11-27,Data-Enrichment,3000,0
+Venkat,2014-11-27,Data-Enrichment,1509,0
+Ramachandran,2014-11-28,Data-Enrichment,832,0
+Venkat,2014-11-3,Mass Refunds,304,0
+Venkat,2014-11-4,Mass Refunds,310,0
+Venkat,2014-11-5,Mass Refunds,65,0
+Venkat,2014-11-6,Mass Refunds,198,0
+Venkat,2014-11-7,Mass Refunds,108,0
+Prathiba,2014-11-11,Mass Refunds,236,0
+Venkat,2014-11-12,Mass Refunds,161,0
+Venkat,2014-11-13,Mass Refunds,183,0
+Venkat,2014-11-14,Mass Refunds,306,0
+Venkat,2014-11-17,Mass Refunds,85,0
+Venkat,2014-11-18,Mass Refunds,21,0
+Venkat,2014-11-19,Mass Refunds,603,0
+Venkat,2014-11-20,Mass Refunds,277,0
+Venkat,2014-11-21,Mass Refunds,296,0
+Venkat,2014-11-24,Mass Refunds,281,0
+Venkat,2014-11-25,Mass Refunds,397,0
+Venkat,2014-11-26,Mass Refunds,253,0
+Venkat,2014-11-27,Mass Refunds,188,0
+Aqhil Mohammad,2014-11-3,EOD Check,1131,0
+Karthick,2014-11-3,EOD Check,789,0
+Aqhil Mohammad,2014-11-4,EOD Check,1607,0
+Karthick,2014-11-4,EOD Check,1203,0
+Aqhil Mohammad,2014-11-5,EOD Check,2734,0
+Aqhil Mohammad,2014-11-6,EOD Check,1159,0
+Karthick,2014-11-6,EOD Check,932,0
+Aqhil Mohammad,2014-11-7,EOD Check,1199,0
+Karthick,2014-11-7,EOD Check,748,0
+Aqhil Mohammad,2014-11-10,EOD Check,1372,0
+Karthick,2014-11-10,EOD Check,790,0
+Aqhil Mohammad,2014-11-11,EOD Check,1631,0
+Karthick,2014-11-11,EOD Check,1207,0
+Aqhil Mohammad,2014-11-12,EOD Check,1495,0
+Karthick,2014-11-12,EOD Check,1207,0
+Aqhil Mohammad,2014-11-13,EOD Check,2688,0
+Aqhil Mohammad,2014-11-14,EOD Check,2377,0
+Karthick,2014-11-14,EOD Check,1258,0
+Aqhil Mohammad,2014-11-17,EOD Check,1036,0
+Karthick,2014-11-17,EOD Check,1501,0
+Aqhil Mohammad,2014-11-18,EOD Check,1862,0
+Karthick,2014-11-18,EOD Check,1413,0
+Aqhil Mohammad,2014-11-19,EOD Check,4125,0
+Aqhil Mohammad,2014-11-20,EOD Check,3375,0
+Aqhil Mohammad,2014-11-21,EOD Check,4612,0
+Aqhil Mohammad,2014-11-24,EOD Check,1387,0
+Karthick,2014-11-24,EOD Check,1017,0
+Aqhil Mohammad,2014-11-25,EOD Check,2517,0
+Karthick,2014-11-25,EOD Check,1674,0
+Karthick,2014-11-26,EOD Check,2824,0
+Aqhil Mohammad,2014-11-27,EOD Check,1318,0
+Karthick,2014-11-27,EOD Check,560,0
+Madhan,2014-11-3,Historical Taxonomization Rolling Queue,1467,0
+Madhan,2014-11-4,Historical Taxonomization Rolling Queue,2393,0
+Venkat,2014-11-5,Historical Taxonomization Rolling Queue,1306,0
+Madhan,2014-11-6,Historical Taxonomization Rolling Queue,1000,0
+Soniya,2014-11-6,Historical Taxonomization Rolling Queue,698,0
+Soniya,2014-11-7,Historical Taxonomization Rolling Queue,804,0
+Gayathri,2014-11-7,Historical Taxonomization Rolling Queue,804,0
+Madhan,2014-11-10,Historical Taxonomization Rolling Queue,1594,0
+Madhan,2014-11-11,Historical Taxonomization Rolling Queue,2046,0
+Madhan,2014-11-12,Historical Taxonomization Rolling Queue,1390,0
+Madhan,2014-11-13,Historical Taxonomization Rolling Queue,2442,0
+Madhan,2014-11-14,Historical Taxonomization Rolling Queue,1713,0
+Madhan,2014-11-17,Historical Taxonomization Rolling Queue,1195,0
+Madhan,2014-11-18,Historical Taxonomization Rolling Queue,2107,0
+Madhan,2014-11-19,Historical Taxonomization Rolling Queue,1938,0
+Venkat,2014-11-20,Historical Taxonomization Rolling Queue,1996,0
+Madhan,2014-11-21,Historical Taxonomization Rolling Queue,1412,0
+Madhan,2014-11-24,Historical Taxonomization Rolling Queue,2100,0
+Madhan,2014-11-25,Historical Taxonomization Rolling Queue,2166,0
+Madhan,2014-11-26,Historical Taxonomization Rolling Queue,554,0
+Madhan,2014-11-27,Historical Taxonomization Rolling Queue,109,0
+Madhan,2014-11-28,Historical Taxonomization Rolling Queue,1830,0
+Sathish,2014-11-3,Ideeli,240,0
+Sathish,2014-11-4,Ideeli,320,0
+Sathish,2014-11-6,Ideeli,125,0
+Madhan,2014-11-6,Ideeli,125,0
+Sathish,2014-11-7,Ideeli,135,0
+Madhan,2014-11-7,Ideeli,136,0
+Sathish,2014-11-10,Ideeli,521,0
+Sathish,2014-11-11,Ideeli,1173,0
+Sathish,2014-11-12,Ideeli,278,0
+Thiliban,2014-11-13,Ideeli,178,0
+Sathish,2014-11-14,Ideeli,50,0
+Sathish,2014-11-17,Ideeli,297,0
+Sathish,2014-11-18,Ideeli,2107,0
+Sathish,2014-11-21,Ideeli,146,0
+Sathish,2014-11-24,Ideeli,265,0
+Sathish,2014-11-25,Ideeli,626,0
+Sathish,2014-11-26,Ideeli,54,0
+Ramachandran,2014-11-27,Ideeli,184,0
+Thiliban,2014-11-28,Ideeli,100,0
+Sathish,2014-11-28,Ideeli,145,0
+Aamir Khan,2014-11-4,Q4-Killer Deals,120,0
+Thiliban,2014-11-5,Q4-Killer Deals,100,0
+Aamir Khan,2014-11-5,Q4-Killer Deals,100,0
+Thiliban,2014-11-6,Q4-Killer Deals,70,0
+Aamir Khan,2014-11-6,Q4-Killer Deals,70,0
+Arul Joseph,2014-11-6,Q4-Killer Deals,39,0
+Thiliban,2014-11-7,Q4-Killer Deals,68,0
+Thiliban,2014-11-12,Q4-Killer Deals,35,0
+Thiliban,2014-11-13,Q4-Killer Deals,55,0
+Aamir Khan,2014-11-13,Q4-Killer Deals,60,0
+Thiliban,2014-11-14,Q4-Killer Deals,150,0
+Aamir Khan,2014-11-14,Q4-Killer Deals,159,0
+Thiliban,2014-11-3,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-11-4,App-Ops (User Management/Carriers),11,0
+Aamir Khan,2014-11-4,App-Ops (User Management/Carriers),11,0
+Thiliban,2014-11-5,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-11-5,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-11-6,App-Ops (User Management/Carriers),2,0
+Thiliban,2014-11-7,App-Ops (User Management/Carriers),37,0
+Ramachandran,2014-11-11,App-Ops (User Management/Carriers),8,0
+Aamir Khan,2014-11-11,App-Ops (User Management/Carriers),5,0
+Thiliban,2014-11-12,App-Ops (User Management/Carriers),13,0
+Ramachandran,2014-11-13,App-Ops (User Management/Carriers),6,0
+Aamir Khan,2014-11-13,App-Ops (User Management/Carriers),3,0
+Ramachandran,2014-11-14,App-Ops (User Management/Carriers),2,0
+Aamir Khan,2014-11-14,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-11-18,App-Ops (User Management/Carriers),4,0
+Aamir Khan,2014-11-18,App-Ops (User Management/Carriers),3,0
+Ramachandran,2014-11-19,App-Ops (User Management/Carriers),1,0
+Aamir Khan,2014-11-19,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-11-20,App-Ops (User Management/Carriers),1,0
+Ramachandran,2014-11-20,App-Ops (User Management/Carriers),2,0
+Aamir Khan,2014-11-20,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-11-21,App-Ops (User Management/Carriers),1,0
+Aamir Khan,2014-11-21,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-11-24,App-Ops (User Management/Carriers),2,0
+Aamir Khan,2014-11-24,App-Ops (User Management/Carriers),2,0
+Thiliban,2014-11-25,App-Ops (User Management/Carriers),1,0
+Ramachandran,2014-11-25,App-Ops (User Management/Carriers),2,0
+Aamir Khan,2014-11-25,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-11-26,App-Ops (User Management/Carriers),2,0
+Aamir Khan,2014-11-26,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-11-27,App-Ops (User Management/Carriers),3,0
+Thiliban,2014-11-28,App-Ops (User Management/Carriers),2,0
+Aamir Khan,2014-11-28,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-11-3,App-Ops (Offboarding/SOx),96,0
+Ramachandran,2014-11-4,App-Ops (Offboarding/SOx),27,0
+Aamir Khan,2014-11-4,App-Ops (Offboarding/SOx),27,0
+Thiliban,2014-11-5,App-Ops (Offboarding/SOx),10,0
+Ramachandran,2014-11-5,App-Ops (Offboarding/SOx),11,0
+Ramachandran,2014-11-6,App-Ops (Offboarding/SOx),13,0
+Aamir Khan,2014-11-6,App-Ops (Offboarding/SOx),13,0
+Thiliban,2014-11-7,App-Ops (Offboarding/SOx),92,0
+Aamir Khan,2014-11-10,App-Ops (Offboarding/SOx),54,0
+Ramachandran,2014-11-11,App-Ops (Offboarding/SOx),16,0
+Aamir Khan,2014-11-11,App-Ops (Offboarding/SOx),16,0
+Thiliban,2014-11-12,App-Ops (Offboarding/SOx),20,0
+Ramachandran,2014-11-13,App-Ops (Offboarding/SOx),10,0
+Aamir Khan,2014-11-13,App-Ops (Offboarding/SOx),11,0
+Thiliban,2014-11-14,App-Ops (Offboarding/SOx),10,0
+Ramachandran,2014-11-14,App-Ops (Offboarding/SOx),20,0
+Aamir Khan,2014-11-14,App-Ops (Offboarding/SOx),20,0
+Aamir Khan,2014-11-17,App-Ops (Offboarding/SOx),37,0
+Ramachandran,2014-11-18,App-Ops (Offboarding/SOx),13,0
+Aamir Khan,2014-11-18,App-Ops (Offboarding/SOx),13,0
+Ramachandran,2014-11-19,App-Ops (Offboarding/SOx),20,0
+Aamir Khan,2014-11-19,App-Ops (Offboarding/SOx),17,0
+Ramachandran,2014-11-20,App-Ops (Offboarding/SOx),23,0
+Aamir Khan,2014-11-20,App-Ops (Offboarding/SOx),20,0
+Ramachandran,2014-11-21,App-Ops (Offboarding/SOx),10,0
+Aamir Khan,2014-11-21,App-Ops (Offboarding/SOx),13,0
+Aamir Khan,2014-11-24,App-Ops (Offboarding/SOx),83,0
+Ramachandran,2014-11-25,App-Ops (Offboarding/SOx),32,0
+Aamir Khan,2014-11-25,App-Ops (Offboarding/SOx),32,0
+Ramachandran,2014-11-26,App-Ops (Offboarding/SOx),12,0
+Aamir Khan,2014-11-26,App-Ops (Offboarding/SOx),20,0
+Ramachandran,2014-11-27,App-Ops (Offboarding/SOx),25,0
+Aamir Khan,2014-11-27,App-Ops (Offboarding/SOx),10,0
+Aamir Khan,2014-11-28,App-Ops (Offboarding/SOx),28,0
+Dhilip,2014-11-12,Historical Taxonomization Rolling Queue,2150,0
+Dhilip,2014-11-13,Historical Taxonomization Rolling Queue,2500,0
+Dhilip,2014-11-14,Historical Taxonomization Rolling Queue,2000,0
+Madhan,2014-12-1,Mid Night Site Check,281,0
+Madhan,2014-12-2,Mid Night Site Check,482,0
+Madhan,2014-12-3,Mid Night Site Check,335,0
+Madhan,2014-12-4,Mid Night Site Check,249,0
+Madhan,2014-12-5,Mid Night Site Check,332,0
+Sathish,2014-12-8,Mid Night Site Check,351,0
+Prathiba,2014-12-9,Mid Night Site Check,247,0
+Ramachandran,2014-12-10,Mid Night Site Check,51,0
+Prathiba,2014-12-10,Mid Night Site Check,208,0
+Soniya,2014-12-10,Mid Night Site Check,67,0
+Ramachandran,2014-12-11,Mid Night Site Check,179,0
+Gayathri,2014-12-11,Mid Night Site Check,143,0
+Ramachandran,2014-12-12,Mid Night Site Check,308,0
+Dhilip,2014-12-15,Mid Night Site Check,136,0
+Soniya,2014-12-15,Mid Night Site Check,135,0
+Gayathri,2014-12-16,Mid Night Site Check,214,0
+Aqhil Mohammad,2014-12-17,Mid Night Site Check,97,0
+Gayathri,2014-12-17,Mid Night Site Check,97,0
+Gayathri,2014-12-18,Mid Night Site Check,215,0
+Gayathri,2014-12-19,Mid Night Site Check,199,0
+Ramachandran,2014-12-22,Mid Night Site Check,122,0
+Gayathri,2014-12-22,Mid Night Site Check,80,0
+Gayathri,2014-12-23,Mid Night Site Check,230,0
+Gayathri,2014-12-24,Mid Night Site Check,205,0
+Sathish,2014-12-26,Mid Night Site Check,91,0
+Ramachandran,2014-12-26,Mid Night Site Check,91,0
+Gayathri,2014-12-26,Mid Night Site Check,117,0
+Gayathri,2014-12-29,Mid Night Site Check,196,0
+Gayathri,2014-12-30,Mid Night Site Check,207,0
+Sathish,2014-12-31,Mid Night Site Check,10,0
+Venkat,2014-12-31,Mid Night Site Check,65,0
+Gayathri,2014-12-31,Mid Night Site Check,110,0
+Soniya,2014-12-1,Item Attributes,1525,0
+Aamir Khan,2014-12-2,Item Attributes,427,0
+Aamir Khan,2014-12-3,Item Attributes,442,0
+Aamir Khan,2014-12-4,Item Attributes,447,0
+Aamir Khan,2014-12-5,Item Attributes,434,0
+Aamir Khan,2014-12-8,Item Attributes,1522,0
+Aamir Khan,2014-12-9,Item Attributes,562,0
+Gayathri,2014-12-10,Item Attributes,396,0
+Ramachandran,2014-12-11,Item Attributes,231,0
+Gayathri,2014-12-11,Item Attributes,230,0
+Dhilip,2014-12-12,Item Attributes,525,0
+Soniya,2014-12-15,Item Attributes,1097,0
+Ramachandran,2014-12-16,Item Attributes,415,0
+Gayathri,2014-12-17,Item Attributes,647,0
+Gayathri,2014-12-18,Item Attributes,455,0
+Soniya,2014-12-19,Item Attributes,400,0
+Gayathri,2014-12-19,Item Attributes,64,0
+Prathiba,2014-12-22,Item Attributes,67,0
+Soniya,2014-12-22,Item Attributes,787,0
+Gayathri,2014-12-22,Item Attributes,329,0
+Prathiba,2014-12-23,Item Attributes,350,0
+Gayathri,2014-12-23,Item Attributes,152,0
+Prathiba,2014-12-24,Item Attributes,347,0
+Ramachandran,2014-12-26,Item Attributes,416,0
+Soniya,2014-12-29,Item Attributes,1000,0
+Gayathri,2014-12-29,Item Attributes,183,0
+Prathiba,2014-12-30,Item Attributes,299,0
+Prathiba,2014-12-31,Item Attributes,327,0
+Venkat,2014-12-1,Data-Enrichment,3055,0
+Thiliban,2014-12-2,Data-Enrichment,300,0
+Venkat,2014-12-2,Data-Enrichment,1628,0
+Thiliban,2014-12-3,Data-Enrichment,600,0
+Venkat,2014-12-3,Data-Enrichment,2618,0
+Thiliban,2014-12-4,Data-Enrichment,600,0
+Venkat,2014-12-4,Data-Enrichment,1085,0
+Thiliban,2014-12-5,Data-Enrichment,1329,0
+Venkat,2014-12-12,Data-Enrichment,3395,0
+Ramachandran,2014-12-15,Data-Enrichment,1800,0
+Venkat,2014-12-15,Data-Enrichment,2427,0
+Venkat,2014-12-16,Data-Enrichment,1864,0
+Venkat,2014-12-17,Data-Enrichment,1156,0
+Ramachandran,2014-12-18,Data-Enrichment,600,0
+Venkat,2014-12-18,Data-Enrichment,747,0
+Venkat,2014-12-19,Data-Enrichment,1178,0
+Thiliban,2014-12-22,Data-Enrichment,1000,0
+Ramachandran,2014-12-22,Data-Enrichment,1000,0
+Venkat,2014-12-22,Data-Enrichment,1484,0
+Thiliban,2014-12-23,Data-Enrichment,672,0
+Venkat,2014-12-23,Data-Enrichment,550,0
+Thiliban,2014-12-24,Data-Enrichment,1060,0
+Thiliban,2014-12-26,Data-Enrichment,1000,0
+Ramachandran,2014-12-26,Data-Enrichment,200,0
+Venkat,2014-12-26,Data-Enrichment,782,0
+Venkat,2014-12-29,Data-Enrichment,1100,0
+Thiliban,2014-12-30,Data-Enrichment,1023,0
+Ramachandran,2014-12-31,Data-Enrichment,500,0
+Venkat,2014-12-31,Data-Enrichment,525,0
+Venkat,2014-12-1,Mass Refunds,160,0
+Venkat,2014-12-2,Mass Refunds,304,0
+Venkat,2014-12-3,Mass Refunds,448,0
+Venkat,2014-12-4,Mass Refunds,260,0
+Venkat,2014-12-5,Mass Refunds,350,0
+Venkat,2014-12-8,Mass Refunds,93,0
+Venkat,2014-12-9,Mass Refunds,148,0
+Venkat,2014-12-10,Mass Refunds,122,0
+Venkat,2014-12-11,Mass Refunds,93,0
+Venkat,2014-12-12,Mass Refunds,122,0
+Venkat,2014-12-15,Mass Refunds,195,0
+Venkat,2014-12-16,Mass Refunds,160,0
+Venkat,2014-12-17,Mass Refunds,351,0
+Venkat,2014-12-18,Mass Refunds,360,0
+Venkat,2014-12-19,Mass Refunds,325,0
+Venkat,2014-12-22,Mass Refunds,469,0
+Venkat,2014-12-23,Mass Refunds,270,0
+Prathiba,2014-12-24,Mass Refunds,220,0
+Venkat,2014-12-29,Mass Refunds,164,0
+Venkat,2014-12-30,Mass Refunds,265,0
+Venkat,2014-12-31,Mass Refunds,205,0
+Aqhil Mohammad,2014-12-1,EOD Check,1706,0
+Aqhil Mohammad,2014-12-2,EOD Check,3670,0
+Aqhil Mohammad,2014-12-3,EOD Check,3015,0
+Aqhil Mohammad,2014-12-4,EOD Check,2954,0
+Aqhil Mohammad,2014-12-5,EOD Check,3017,0
+Aqhil Mohammad,2014-12-8,EOD Check,1964,0
+Karthick,2014-12-8,EOD Check,974,0
+Aqhil Mohammad,2014-12-9,EOD Check,1047,0
+Karthick,2014-12-9,EOD Check,541,0
+Aqhil Mohammad,2014-12-10,EOD Check,4658,0
+Aqhil Mohammad,2014-12-11,EOD Check,1747,0
+Soniya,2014-12-11,EOD Check,800,0
+Prathiba,2014-12-12,EOD Check,1162,0
+Gayathri,2014-12-12,EOD Check,1677,0
+Prathiba,2014-12-15,EOD Check,1253,0
+Gayathri,2014-12-15,EOD Check,2031,0
+Prathiba,2014-12-16,EOD Check,1221,0
+Soniya,2014-12-16,EOD Check,1705,0
+Prathiba,2014-12-17,EOD Check,1203,0
+Soniya,2014-12-17,EOD Check,1339,0
+Prathiba,2014-12-18,EOD Check,756,0
+Soniya,2014-12-18,EOD Check,1354,0
+Aqhil Mohammad,2014-12-19,EOD Check,1793,0
+Soniya,2014-12-19,EOD Check,510,0
+Prathiba,2014-12-22,EOD Check,567,0
+Aqhil Mohammad,2014-12-22,EOD Check,1096,0
+Aqhil Mohammad,2014-12-23,EOD Check,1153,0
+Soniya,2014-12-23,EOD Check,472,0
+Aqhil Mohammad,2014-12-24,EOD Check,1022,0
+Soniya,2014-12-24,EOD Check,950,0
+Prathiba,2014-12-26,EOD Check,836,0
+Soniya,2014-12-26,EOD Check,622,0
+Prathiba,2014-12-29,EOD Check,134,0
+Aqhil Mohammad,2014-12-29,EOD Check,481,0
+Aqhil Mohammad,2014-12-30,EOD Check,1223,0
+Soniya,2014-12-30,EOD Check,671,0
+Aqhil Mohammad,2014-12-31,EOD Check,1395,0
+Soniya,2014-12-31,EOD Check,756,0
+Madhan,2014-12-1,Historical Taxonomization Rolling Queue,3349,0
+Madhan,2014-12-2,Historical Taxonomization Rolling Queue,1834,0
+Madhan,2014-12-3,Historical Taxonomization Rolling Queue,1384,0
+Madhan,2014-12-4,Historical Taxonomization Rolling Queue,2285,0
+Madhan,2014-12-5,Historical Taxonomization Rolling Queue,1959,0
+Madhan,2014-12-8,Historical Taxonomization Rolling Queue,1390,0
+Madhan,2014-12-9,Historical Taxonomization Rolling Queue,2045,0
+Gayathri,2014-12-10,Historical Taxonomization Rolling Queue,1650,0
+Ramachandran,2014-12-11,Historical Taxonomization Rolling Queue,601,0
+Venkat,2014-12-11,Historical Taxonomization Rolling Queue,601,0
+Gayathri,2014-12-11,Historical Taxonomization Rolling Queue,602,0
+Ramachandran,2014-12-12,Historical Taxonomization Rolling Queue,1271,0
+Soniya,2014-12-15,Historical Taxonomization Rolling Queue,1030,0
+Gayathri,2014-12-16,Historical Taxonomization Rolling Queue,1440,0
+Gayathri,2014-12-17,Historical Taxonomization Rolling Queue,1148,0
+Gayathri,2014-12-18,Historical Taxonomization Rolling Queue,1072,0
+Gayathri,2014-12-19,Historical Taxonomization Rolling Queue,1346,0
+Gayathri,2014-12-22,Historical Taxonomization Rolling Queue,936,0
+Gayathri,2014-12-23,Historical Taxonomization Rolling Queue,1063,0
+Gayathri,2014-12-24,Historical Taxonomization Rolling Queue,1022,0
+Gayathri,2014-12-26,Historical Taxonomization Rolling Queue,1275,0
+Gayathri,2014-12-29,Historical Taxonomization Rolling Queue,1040,0
+Venkat,2014-12-30,Historical Taxonomization Rolling Queue,1020,0
+Ramachandran,2014-12-31,Historical Taxonomization Rolling Queue,327,0
+Gayathri,2014-12-31,Historical Taxonomization Rolling Queue,1000,0
+Sathish,2014-12-2,Ideeli,2224,0
+Sathish,2014-12-3,Ideeli,423,0
+Sathish,2014-12-4,Ideeli,393,0
+Sathish,2014-12-5,Ideeli,14,0
+Sathish,2014-12-8,Ideeli,51,0
+Sathish,2014-12-9,Ideeli,2463,0
+Sathish,2014-12-10,Ideeli,228,0
+Sathish,2014-12-11,Ideeli,80,0
+Aqhil Mohammad,2014-12-11,Ideeli,20,0
+Sathish,2014-12-15,Ideeli,114,0
+Aqhil Mohammad,2014-12-15,Ideeli,114,0
+Sathish,2014-12-16,Ideeli,2463,0
+Sathish,2014-12-17,Ideeli,387,0
+Sathish,2014-12-18,Ideeli,156,0
+Sathish,2014-12-19,Ideeli,140,0
+Sathish,2014-12-22,Ideeli,120,0
+Sathish,2014-12-23,Ideeli,2895,0
+Sathish,2014-12-24,Ideeli,171,0
+Sathish,2014-12-29,Ideeli,247,0
+Sathish,2014-12-30,Ideeli,2586,0
+Sathish,2014-12-31,Ideeli,43,0
+Aamir Khan,2014-12-3,Q4-Killer Deals,47,0
+Thiliban,2014-12-2,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-12-2,App-Ops (User Management/Carriers),2,0
+Thiliban,2014-12-3,App-Ops (User Management/Carriers),3,0
+Aamir Khan,2014-12-3,App-Ops (User Management/Carriers),3,0
+Thiliban,2014-12-4,App-Ops (User Management/Carriers),2,0
+Thiliban,2014-12-5,App-Ops (User Management/Carriers),4,0
+Aamir Khan,2014-12-5,App-Ops (User Management/Carriers),4,0
+Aamir Khan,2014-12-8,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-12-9,App-Ops (User Management/Carriers),10,0
+Aamir Khan,2014-12-9,App-Ops (User Management/Carriers),10,0
+Thiliban,2014-12-10,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-12-10,App-Ops (User Management/Carriers),3,0
+Thiliban,2014-12-11,App-Ops (User Management/Carriers),1,0
+Ramachandran,2014-12-11,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-12-12,App-Ops (User Management/Carriers),3,0
+Ramachandran,2014-12-12,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-12-15,App-Ops (User Management/Carriers),4,0
+Ramachandran,2014-12-16,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-12-18,App-Ops (User Management/Carriers),1,0
+Ramachandran,2014-12-19,App-Ops (User Management/Carriers),1,0
+Ramachandran,2014-12-22,App-Ops (User Management/Carriers),1,0
+Thiliban,2014-12-23,App-Ops (User Management/Carriers),1,0
+Ramachandran,2014-12-23,App-Ops (User Management/Carriers),2,0
+Thiliban,2014-12-24,App-Ops (User Management/Carriers),1,0
+Ramachandran,2014-12-24,App-Ops (User Management/Carriers),1,0
+Ramachandran,2014-12-29,App-Ops (User Management/Carriers),4,0
+Thiliban,2014-12-30,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-12-30,App-Ops (User Management/Carriers),2,0
+Ramachandran,2014-12-1,App-Ops (Offboarding/SOx),58,0
+Thiliban,2014-12-2,App-Ops (Offboarding/SOx),40,0
+Aamir Khan,2014-12-2,App-Ops (Offboarding/SOx),40,0
+Thiliban,2014-12-3,App-Ops (Offboarding/SOx),24,0
+Aamir Khan,2014-12-3,App-Ops (Offboarding/SOx),20,0
+Thiliban,2014-12-4,App-Ops (Offboarding/SOx),11,0
+Aamir Khan,2014-12-4,App-Ops (Offboarding/SOx),10,0
+Thiliban,2014-12-5,App-Ops (Offboarding/SOx),20,0
+Aamir Khan,2014-12-5,App-Ops (Offboarding/SOx),22,0
+Aamir Khan,2014-12-8,App-Ops (Offboarding/SOx),46,0
+Thiliban,2014-12-9,App-Ops (Offboarding/SOx),20,0
+Aamir Khan,2014-12-9,App-Ops (Offboarding/SOx),26,0
+Thiliban,2014-12-10,App-Ops (Offboarding/SOx),12,0
+Ramachandran,2014-12-10,App-Ops (Offboarding/SOx),12,0
+Ramachandran,2014-12-11,App-Ops (Offboarding/SOx),15,0
+Ramachandran,2014-12-12,App-Ops (Offboarding/SOx),31,0
+Ramachandran,2014-12-15,App-Ops (Offboarding/SOx),16,0
+Ramachandran,2014-12-16,App-Ops (Offboarding/SOx),59,0
+Aamir Khan,2014-12-16,App-Ops (Offboarding/SOx),50,0
+Ramachandran,2014-12-18,App-Ops (Offboarding/SOx),25,0
+Aamir Khan,2014-12-18,App-Ops (Offboarding/SOx),26,0
+Ramachandran,2014-12-19,App-Ops (Offboarding/SOx),27,0
+Aamir Khan,2014-12-19,App-Ops (Offboarding/SOx),20,0
+Ramachandran,2014-12-22,App-Ops (Offboarding/SOx),71,0
+Ramachandran,2014-12-23,App-Ops (Offboarding/SOx),31,0
+Ramachandran,2014-12-24,App-Ops (Offboarding/SOx),20,0
+Aamir Khan,2014-12-24,App-Ops (Offboarding/SOx),20,0
+Ramachandran,2014-12-26,App-Ops (Offboarding/SOx),43,0
+Ramachandran,2014-12-29,App-Ops (Offboarding/SOx),238,0
+Ramachandran,2014-12-30,App-Ops (Offboarding/SOx),15,0
+Aamir Khan,2014-12-30,App-Ops (Offboarding/SOx),15,0
+Ramachandran,2014-12-31,App-Ops (Offboarding/SOx),35,0
+Aamir Khan,2014-12-31,App-Ops (Offboarding/SOx),36,0
+Dhilip,2014-12-15,Historical Taxonomization Rolling Queue,1400,0
+Dhilip,2014-12-16,Historical Taxonomization Rolling Queue,3000,0

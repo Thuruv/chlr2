@@ -1,0 +1,59 @@
+{% load staticfiles %}
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Trackie - Login to Hell</title>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<link href="http://192.185.228.226/projects/sa/1-0-3/css/style.css" rel="stylesheet">
+<link href="http://192.185.228.226/projects/sa/1-0-3/css/animate.css" rel="stylesheet">
+<link href="http://192.185.228.226/projects/sa/1-0-3/css/generics.css" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link href = "http://192.185.228.226/projects/sa/1-0-3/css/form.css" rel = "stylesheet">
+<link href="{% static 'assets/css/bootstrap.css'%}" rel="stylesheet">
+<link href="{% static 'assets/font-awesome/css/font-awesome.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/style.css'%}" rel="stylesheet">
+<link href="{% static 'assets/css/style-responsive.css' %}" rel="stylesheet">
+<style>
+.login {
+  position: absolute;
+  top: 30%;
+  bottom: 20%;
+  left: 40%;
+  right: 15%;
+}
+</style>
+</head>
+<body>
+    <div class="login">
+        <form class="form-horizontal" name="LoginForm" action="/login/" method="post">
+        {% csrf_token %}
+        {% if next %}
+            <input type="hidden" name="next" value="{{ next }}" />
+        {% endif %}
+        <div class="control-group">
+            <label class="control-label" for="username">Username</label>
+            <div class="controls">
+                <input type="text" id="username" name="username"  placeholder="Username">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="password">Password</label>
+            <div class="controls">
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+        </div>
+        <p>
+        <div class="control-group">
+            <div class="controls">
+                <button type="submit" class="btn">Login</button>
+            </div>
+        </div>
+                </div>
+                        </div>
+                                </div>
+        </form>
+    </div>
+        </div>
+</body>

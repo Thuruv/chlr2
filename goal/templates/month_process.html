@@ -1,0 +1,85 @@
+{% load static from staticfiles %}
+ <html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Chart.js demo</title>
+    <script src = "{% static 'js/chart.js'%}"></script>
+    <script src = "{% static 'js/chart.min.js'%}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/app.min.1.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/app.min.2.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap.min.css'%}">
+    <script src = "{% static 'js/bootstrap.min.js'%}"></script>
+
+<style type="text/css">
+    .tablecontainer { width: 1250px; overflow; hidden;}
+tr {display: inline-table; }
+th, td { width: 300px; }
+tbody { display: inline-table; height: 5px; overflow: auto;}
+
+</style>
+</head>
+
+<body>
+<div class="col-lg-4">
+<div class="panel panel-default">
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-striped">
+                                        <thead>
+
+                  <tr>
+                      <th>Associate</th>
+                      <th>Quality</th>
+                  </tr>
+                  </thead>
+
+                  <tbody>
+                  {% for i in processdata %}
+                  <tr>
+                  <td>{{i.process}}</td>
+                  <td>{{i.Quality}}</td>
+                  </tr>
+                  </tbody>
+                  {% endfor %}
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+              </table>
+          </div>
+          <!-- --/content-panel ---->
+      </div>
+<div class="col-lg-4">
+        <div class="card-header">
+            <h2>Associates' Quality on {{month_name}}</h2>
+        </div>
+
+            <canvas id="associate" width="900" height="600"></canvas>
+    </div>
+        <script type="text/javascript">
+        var AssQual = {
+            labels: {{ OA_p_Quality_label|safe}},
+            datasets: [
+                {
+                    label: 'Over All Team\'s Quality',
+                    fillColor: '#887f8d',
+                    data: {{ OA_p_Quality_data|safe}}
+                }
+            ]
+            };
+
+        var context = document.getElementById('associate').getContext('2d');
+        var clientsChart = new Chart(context).Bar(AssQual, {
+            scaleGridLineWidth : 0.5,
+            barShowStroke : false,
+            barValueSpacing : 5,
+            barDatasetSpacing : 10,
+            scaleBeginAtZero : false,
+        });
+        </script>
+    </div>
+        </div>
+
+
+</body>

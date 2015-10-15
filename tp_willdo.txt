@@ -1,0 +1,24 @@
+1.Month Wise Quality Report Irespective of Process /Counts aka Step Wise
+Have to chage the Doc Again
+
+
+2.Indicvidual Q Rep Month Wise
+Easy
+
+3.Individual Productivuty  {Counts/ErrorBars Only Not Quality }- mONTH wIASE - Process Wise Column/ Bar Chart
+4.
+
+
+
+
+
+
+
+# Individual Productivity Report
+
+labels = Errors & Counts
+don't pur Quality
+Month Wise
+
+
+

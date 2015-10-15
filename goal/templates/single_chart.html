@@ -1,0 +1,45 @@
+{% load bootstrap3 %}
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+        google.setOnLoadCallback(drawStuff);
+
+        function drawStuff() {
+          var djangoData = {{ tOA_pr_Quality|safe}}
+        var data = google.visualization.arrayToDataTable(djangoData);
+
+          var options = {
+           title: 'Over All Quality Of Team',
+           width: 800,
+           height: 300,
+           bar: {groupWidth: '90%'},
+           vAxis: { 
+               viewWindow : {
+                min: 99.5,
+                max: 100
+           }
+         }
+         };
+
+         var chart = new google.visualization.ColumnChart(document.getElementById('number_format_chart'));
+         chart.draw(data, options);
+
+         document.getElementById('format-select').onchange = function() {
+           options['vAxis']['format'] = this.value;
+           chart.draw(data, options);
+         };
+      };
+    </script>
+  </head>
+  <body>
+  <div class="col-md-4 col-sm-4 mb">
+    <div id="number_format_chart">
+</div>
+<div class="col-md-4 col-sm-4 mb">
+    <div id="chart_div">
+</div>
+    
+  </body>
+</html>

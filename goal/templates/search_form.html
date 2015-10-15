@@ -1,0 +1,85 @@
+{% load staticfiles %}
+{% load table_tags %}
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--  <script type="text/javascript" src = "https://rawgit.com/wenzhixin/bootstrap-table/master/dist/bootstrap-table.min.css"></script>
+  <script type="text/javascript" src = "https://rawgit.com/wenzhixin/bootstrap-table/master/dist/bootstrap-table.min.js"></script>
+  -->
+    <script src="{% static 'tableExport.jquery.plugin/tableExport.js' %}"></script>
+    <script src="{% static 'tableExport.jquery.plugin/jquery.base64.js' %}"></script>
+
+
+    <body>
+    <div class="container">
+    <div class="row">
+        <h2>Create Colorful Input Groups!</h2>
+    </div>
+    <div class = "col-md-6">
+            <span class="input-addon primary"></span>
+        <form action="/search" method="get">
+            Associate : <select name='associate' class="form-control">
+                <option>Select Something</option>
+                <option>Venkat</option>
+                <option>Thiliban</option>
+                <option>Ramachandran</option>
+                <option>Sathish</option>
+                <option>Pradeep Anand</option>
+                <option>Prathiba</option>
+                <option>Madhan</option>
+                <option>Gayathri</option>
+                <option>Karthick</option>
+                <option>Aqhil Mohammad</option>
+                <option>Soniya</option>
+                <option>Aamir Khan</option>
+                <option>Arul Joseph</option>
+                <option>Dhilip</option>
+            </select>
+            <p>
+            Process : <select name='process' class="form-control">
+                <option>Select_Something</option>
+                <option>Mid Night Site Check</option>
+                <option>Item Attributes</option>
+                <option>Mass Refunds</option>
+                <option>EOD Check</option>
+                <option>Data-Enrichment</option>
+                <option>Ideeli</option>
+                <option>Product Updates</option>
+                <option>OI Cloning</option>
+                <option>OI Vetting</option>
+                <option>App-Ops (User Management/Carriers)</option>
+                <option>App-Ops (User Management/Carriers))</option>
+                <option>App-Ops (Offboarding/SOx)</option>
+                <option>Store Merchants</option>
+                <option>Ad Hoc</option>
+                <option>Price Scrapping</option>
+                <option>Historical Taxonomization Rolling Queue</option>
+                <option>Historical Taxonomization</option>
+            </select>
+
+            <p>
+
+            Month : <select name='month' class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                </select>
+            <p>
+            <input type="submit" value="Search"></p>
+        </form>
+    </body>
+</html>

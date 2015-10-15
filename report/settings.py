@@ -40,14 +40,18 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bootstrap3',
+    'table',
+    'crispy_forms',
     'googlecharts',
     'daterange_filter',
     'import_export',
     'django_extensions',
     'admin_exporter',
+    'envelope',
     'csvimport.app.CSVImportConf',
     'goal',
     'chartit',
+    'highcharts',
     'gsuggest',
 )
 
@@ -124,5 +128,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
-    'c:/users/c_thv/desktop/foo/goal/static/',
+    'c:/users/c_thv/desktop/foobar/goal/static/dashboard',
+    'c:/users/c_thv/desktop/foobar/goal/static/',
 )
